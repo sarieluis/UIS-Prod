@@ -1,0 +1,679 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+iframe{display:none;}
+
+#HeaderMobile{display:none;}
+
+#Main {
+    width: 100%;
+    background-color: #6a6b6d;
+}
+
+#MainDiv {
+    background: url('../Images/YP_Image.jpg') no-repeat center center;
+    width: 1200px;
+    height: 837px;
+    margin:auto;
+    overflow:hidden;
+
+}
+
+#MainLeftDiv{
+    padding-left: 30px;
+    padding-top:15px;
+    width:558px;
+    float:left;
+}
+
+#LogoDiv{
+    background: url("../Images/logo_white.png") no-repeat center center;
+    width: 210px;
+    height: 107px;
+
+}
+
+#TopProgressBar{
+    overflow: hidden;
+    padding-top:10px;
+    /*padding-left:75px;*/
+    width:509px;
+    margin:auto;
+}
+
+/*Old Progress Bar
+.TopProgressBar{
+    float: left;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.TopProgressBar:nth-child(1){
+    color:#ffc312;
+}
+*/
+
+/*New Progress Bar*/
+
+.CurrentStep{
+    float:left;
+    overflow:hidden;
+}
+
+.CurrentStep:nth-child(2),.CurrentStep:nth-child(3){
+    margin-left:15px;
+}
+
+#CurrentStep1Num{
+    float:left;
+    background: url("../Images/step_bg_active_42x40.png") no-repeat;
+    width:32px;
+    height: 30px;
+    background-size:32px 30px;
+    line-height: 30px !important;
+    color:#ffffff;
+    text-align: center;
+    margin-right:7px;
+    font-family: Arial;
+    font-size:13px;
+}
+
+#CurrentStep1NumDesc{
+    font-size:13px;
+    color:#ffc312;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px !important;
+    width: 151px;
+    font-family: Arial;
+
+}
+
+#CurrentStep2Num{
+    float:left;
+    background: url("../Images/step_bg_nonactive_42x40.png") no-repeat;
+    width:32px;
+    height: 30px;
+    background-size:32px 30px;
+    line-height: 30px !important;
+    color:#000000;
+    text-align: center;
+    margin-right:7px;
+    font-family: Arial;
+    font-size:13px;
+}
+
+#CurrentStep2NumDesc{
+    font-size:13px;
+    color:#ffffff;
+    height: 30px;
+    line-height: 30px !important;
+    font-family: Arial;
+    width:178px;
+
+}
+
+#CurrentStep3Num{
+    float:left;
+    background: url("../Images/step_bg_nonactive_42x40.png") no-repeat;
+    width:32px;
+    height: 30px;
+    background-size:32px 30px;
+    line-height: 30px !important;
+    color:#000000;
+    text-align: center;
+    margin-right:7px;
+    font-family: Arial;
+    font-size:13px;
+}
+
+#CurrentStep3NumDesc{
+    font-size:13px;
+    color:#ffffff;
+    height: 30px;
+    line-height: 30px !important;
+    width: 150px;
+    font-family: Arial;
+}
+
+#MainRightDiv{
+    float: left;
+    width:642px;
+}
+
+#MainTopTextRightDiv{
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Arial;
+}
+
+#MainBottomTextRightDiv{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 45px;
+    font-family: Arial;
+}
+
+#MainPackagesRightDiv{
+    overflow: hidden;
+    padding-top:40px;
+    padding-left:110px;
+}
+
+#MainLeftPackagesRightDiv{
+    float:left;
+    width:255px;
+}
+
+#MainLeftPackNameRightDiv{
+    height: 185px;
+    width: 185px;
+    background-color: #fbba0d;
+    border-radius: 185px;
+    display: inline-block;
+    border:2px solid #fff;
+    padding-top: 48px;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left:34px;
+}
+
+#MainRightPackagesRightDiv{
+    float:left;
+    width:255px;
+}
+
+#MainRightPackNameRightDiv{
+    height: 185px;
+    width: 185px;
+    background-color: #fbba0d;
+    border-radius: 185px;
+    display: inline-block;
+    border:2px solid #fff;
+    padding-top: 48px;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left:34px;
+}
+
+#MainLeftPackDetailsRightDiv{
+    padding-top:40px;
+    padding-right:10px;
+}
+
+#MainRightPackDetailsRightDiv{
+    padding-top:40px;
+}
+
+.MainLeftPackDetailsRightDiv{
+    background: url("../Images/CanadaBullet2.png") no-repeat left 6px;
+    padding-left:31px;
+    font-size:13px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.SubmitBTN{
+    width:130px;
+    height:50px;
+    line-height: 50px !important;
+    background: #d00f10;
+    text-align: center;
+    margin:auto;
+    border-radius: 5px 5px;
+    border:1px solid #fff;
+    font-weight: bold;
+    font-size:20px;
+    color:#fff;
+    cursor: pointer;
+}
+
+#MainEbookLeftDiv{
+    height: 170px;
+    width:170px;
+    border-radius: 170px;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    margin-top:300px;
+    background: #0a89c0;
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+    color:#fff;
+    padding-top:25px;
+}
+
+
+
+#Footer {
+    width: 100%;
+    background-color: #232323;
+}
+
+#FooterDiv {
+    width: 1240px;
+    margin: auto;
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
+#topFooterDiv{
+    overflow:hidden;
+}
+
+#LefttopFooterDiv{
+    float:left;
+    background:url('../Images/logo-footer.png');
+    width:167px;
+    height:66px;
+}
+
+#MiddletopFooterDiv {
+    float: left;
+    margin-left: 5%;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size:22px;
+    line-height:24px;
+    color:#fff;
+}
+
+#RighttopFooterDiv {
+    float: left;
+    margin-left: 5%;
+    font-size: 22px;
+    line-height: 24px;
+    color: #fff;
+    padding-bottom:40px;
+}
+
+    #RighttopFooterDiv a {
+        text-decoration: none;
+        color: inherit;
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    }
+
+    #RighttopFooterDiv a:hover {
+        text-decoration: none;
+        color: #5a5959;   
+    }
+
+#BottomFooterDiv {
+    width:80%;
+    padding-top: 20px;
+    border-top: 1px solid #5a5959;
+    color: #5a5959;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    line-height:25px;
+    font-size:14px;
+}
+
+@media only screen and (max-width: 1239px) {
+
+
+    #FooterDiv{
+        width:768px;
+        padding-left:0;
+        padding-right:0;
+    }
+
+    #MainDiv{
+        width:100%;
+    }
+
+    .TopProgressBar{
+        font-size:13px;
+    }
+
+    #MainTopTextRightDiv{
+        font-size:18px;
+    }
+
+    #MainBottomTextRightDiv{
+        font-size:19px;
+    }
+
+    #MainLeftDiv{
+        width:458px;
+    }
+
+   #MainRightDiv{
+       width: 500px;
+   }
+
+    #MainLeftPackagesRightDiv{
+        width:190px;
+     }
+
+  #MainRightPackagesRightDiv{
+    width:190px;
+   }
+
+   #MainPackagesRightDiv{
+        padding-left: 60px;
+    }
+
+    #MainLeftPackNameRightDiv, #MainRightPackNameRightDiv{
+        height: 140px;
+        width: 140px;
+        border-radius: 140px;
+        padding-top:37px;
+        font-size:15px;
+     }
+
+    .MainLeftPackDetailsRightDiv{
+        font-size:12px;
+        background-position-y: top;
+    }
+
+    #MainEbookLeftDiv{
+        height: 130px;
+        width: 130px;
+        border-radius: 130px;
+        font-size:15px;
+    }
+
+    #MainRightDiv{
+        float:right;
+    }
+
+    #TopProgressBar{
+        width:481px;
+    }
+
+    #CurrentStep1Num, #CurrentStep1NumDesc, #CurrentStep2Num, #CurrentStep2NumDesc, #CurrentStep3Num, #CurrentStep3NumDesc{
+        font-size:12px;
+    }
+
+    #CurrentStep1NumDesc{
+        width:142px;
+    }
+
+    #CurrentStep2NumDesc{
+        width:167px;
+    }
+
+    #CurrentStep3NumDesc{
+        width:142px;
+    }
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+    #MainDiv{
+        width:768px;
+    }
+    #MainLeftDiv{
+        width:260px;
+    }
+
+    #MainRightDiv{
+        padding-left:0;
+    }
+
+    #MainRightDiv{
+        width:480px;
+    }
+
+    #MainLeftPackagesRightDiv, #MainRightPackagesRightDiv{
+        width:190px;
+    }
+
+    #MainPackagesRightDiv{
+        padding-left:45px;
+    }
+
+    .TopProgressBar{
+        font-size:11px;
+    }
+
+    #CurrentStep1Num, #CurrentStep2Num, #CurrentStep3Num{
+        width:28px;
+        height: 26px;
+        background-size:28px 26px;
+    }
+
+    #CurrentStep1Num, #CurrentStep1NumDesc, #CurrentStep2Num, #CurrentStep2NumDesc, #CurrentStep3Num, #CurrentStep3NumDesc{
+        line-height: 26px !important;
+        font-size:11px;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    #MainDiv{
+        /*background: url("../Images/VP_Image_Mobile2.png") no-repeat center center;*/
+        background: none;
+        width:100%;
+    }
+
+    #MainLeftDiv{
+        display: none;
+    }
+
+    #MainRightDiv{
+        float:none;
+        width:100%;
+        margin:auto;
+    }
+
+    #TopProgressBar{
+        font-size:10px;
+        padding-left:10px;
+    }
+
+    #MainTopTextRightDiv{
+        font-size:15px;
+        margin-top:60px;
+    }
+
+    #MainBottomTextRightDiv{
+        font-size:14px;
+        margin-top:20px;
+    }
+
+    #MainPackagesRightDiv{
+        width:320px;
+        margin:auto;
+    }
+
+    #MainLeftPackagesRightDiv, #MainRightPackagesRightDiv{
+        width:160px;
+    }
+
+    #FooterDiv {
+        width: 100%;
+    }
+
+    #MiddletopFooterDiv, #RighttopFooterDiv a{
+        font-size:14px;
+    }
+
+    #MainLeftPackNameRightDiv{
+        margin-left:10px;
+    }
+
+    #HeaderMobile{
+        display:block;
+        width:100%;
+        height:70px;
+        padding-top:10px;
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    #LogoDivMobile{
+        background: url("../Images/logo_white.png");
+        background-size: 140px 60px;
+        width:140px;
+        height: 60px;
+        margin:auto;
+    }
+
+    #TopProgressBar{
+        display:none;
+    }
+
+    #TopProgressBarMobile{
+        overflow: hidden;
+        width:215px;
+        margin:auto;
+        margin-top:10px;
+
+    }
+
+    #CurrentStep1Mobile{
+        font-size:13px;
+        font-weight: bold;
+        float:left;
+        color:#ffc312;
+        font-family: Arial;
+    }
+
+    #CurrentStep2Mobile{
+        font-size:13px;
+        float:left;
+        color:#ffffff;
+        margin-left:15px;
+        font-family: Arial;
+    }
+
+    #CurrentStep3Mobile{
+        font-size:13px;
+        float:left;
+        color:#ffffff;
+        margin-left:15px;
+        font-family: Arial;
+    }
+
+
+
+    #MainRightDiv{
+        padding-left:0;
+    }
+
+    .MainLeftPackDetailsRightDiv{
+        font-size:11px;
+    }
+
+    #MainLeftPackNameRightDiv, #MainRightPackNameRightDiv{
+        width:130px;
+        height: 130px;
+        border-radius: 130px;
+        font-size:13px;
+    }
+
+
+    #LefttopFooterDiv{
+        float:none;
+    }
+
+    #MiddletopFooterDiv{
+        float:none;
+        margin-top:15px;
+    }
+
+    #MainRightPackNameRightDiv{
+        margin-left:15px;
+    }
+
+    #MainPackagesRightDiv{
+        padding-left:0;
+    }
+
+    #RighttopFooterDiv {
+        float: none;
+        margin-top: 15px;
+        margin-top: 0;
+    }
+
+
+
+    #RighttopFooterDiv br{
+        display:none;
+    }
+
+    #topFooterDiv{
+        overflow:visible;
+        margin:auto;
+        width:300px;
+    }
+
+    #BottomFooterDiv{
+        padding-left:20px;
+        margin:auto;
+    }
+
+    .SubmitBTN{
+        width:120px;
+        height: 40px;
+        line-height: 40px !important;
+        font-size:15px;
+    }
+}
+
+

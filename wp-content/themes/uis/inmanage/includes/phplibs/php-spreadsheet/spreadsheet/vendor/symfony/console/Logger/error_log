@@ -1,0 +1,2 @@
+[20-Jul-2018 03:57:13 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/symfony/console/Logger/ConsoleLogger.php on line 28
+[20-Jul-2018 06:51:33 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/symfony/console/Logger/ConsoleLogger.php on line 28

@@ -1,0 +1,10 @@
+[20-Jul-2018 04:03:08 UTC] PHP Fatal error:  Uncaught exception 'PharException' with message 'internal corruption of phar "/home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Resources/phar-stub.php" (truncated manifest at stub end)' in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Resources/phar-stub.php:39
+Stack trace:
+#0 /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Resources/phar-stub.php(39): Phar::mapPhar('php-cs-fixer.ph...')
+#1 {main}
+  thrown in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Resources/phar-stub.php on line 39
+[20-Jul-2018 06:52:08 UTC] PHP Fatal error:  Uncaught exception 'PharException' with message 'internal corruption of phar "/home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Resources/phar-stub.php" (truncated manifest at stub end)' in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Resources/phar-stub.php:39
+Stack trace:
+#0 /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Resources/phar-stub.php(39): Phar::mapPhar('php-cs-fixer.ph...')
+#1 {main}
+  thrown in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Resources/phar-stub.php on line 39

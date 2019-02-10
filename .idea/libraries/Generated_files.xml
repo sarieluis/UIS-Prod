@@ -1,0 +1,55 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/canadanews/js/articles.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/canadanews/js/main.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/main-question.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/main-question.min.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/main.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/main.min.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/question.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/question.min.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/flag/assets/js/iphone-inline-video.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/flag/assets/js/main.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/flag/assets/js/question.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/flag/assets/js/question_b.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/newthankyoupage/assets/js/summary.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/sukkah/assets/js/main-question.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/sukkah/assets/js/main.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/sukkah/assets/js/question.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/js/aboutus.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/js/app-page.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/js/common.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/js/general.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/js/main.min.js" />
+        <item url="file://$PROJECT_DIR$/wp-content/themes/uis/js/visatype.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/canadanews/js/articles.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/canadanews/js/main.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/main-question.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/main-question.min.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/main.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/main.min.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/question.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/entrepreneur/assets/js/question.min.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/flag/assets/js/iphone-inline-video.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/flag/assets/js/main.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/flag/assets/js/question.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/flag/assets/js/question_b.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/newthankyoupage/assets/js/summary.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/sukkah/assets/js/main-question.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/sukkah/assets/js/main.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/inmanage/lp-pages/sukkah/assets/js/question.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/js/aboutus.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/js/app-page.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/js/common.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/js/general.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/js/main.min.js" />
+      <root url="file://$PROJECT_DIR$/wp-content/themes/uis/js/visatype.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

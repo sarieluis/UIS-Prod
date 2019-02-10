@@ -1,0 +1,6 @@
+[20-Jul-2018 03:26:27 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/admin/options-pages.php on line 2
+[20-Jul-2018 03:26:28 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/admin/options-pages.php on line 2
+[20-Jul-2018 03:26:28 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/admin/actions.php on line 2
+[20-Jul-2018 06:51:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/admin/options-pages.php on line 2
+[20-Jul-2018 06:51:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/admin/actions.php on line 2
+[20-Jul-2018 06:51:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/admin/options-pages.php on line 2

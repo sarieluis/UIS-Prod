@@ -1,0 +1,1576 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#MainArticleImageURL, #TopRightArticle, #TopBottomRightArticle, #MainArticleElement{
+	position:relative;
+}
+
+#TickerForMobile, #MainLeftDivLeftTextUnderMobile, #HeaderManuMobileDiv, #MainImageMobile, #MainMobileDiv {
+    display: none;
+}
+
+#Header{
+    width:100%;
+    background:#000000;
+}
+
+#HeaderDiv{ 
+    width:1620px;
+    margin:auto;
+    background:#000000;
+    overflow:hidden;
+    box-sizing:border-box;
+    height:82px;
+}
+
+#HeaderLogoDiv {
+    float: left;
+    background:url("../images/CanadaNewsLogo.png") no-repeat center center;
+    width:317px;
+    height:82px;
+}
+
+#HeaderManuDiv{
+    float:left;
+    padding-top:50px;
+}
+
+.HeaderManuDiv {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: rgb(252,249, 249);
+    font-style: normal;
+    letter-spacing: -0.02 em;
+    opacity: 1;
+    float: left;
+    border-right: 1px solid rgb(252,249, 249);
+    padding-left:24px;
+    padding-right:24px;
+}
+
+.HeaderManuDiv:nth-child(5) {
+    border-right:none;
+}
+
+#TopRedBar {
+    width:100%;
+    height:42px;
+    background:#ff0000;
+	display:none;
+}
+
+.HeaderManuDiv a {
+    color: rgb(252,249, 249);
+    text-decoration:none;
+}
+
+.HeaderManuDiv a:hover{
+    color:#eae2e2;
+}
+
+#Main{
+    width:100%;
+    padding-top:10px;
+}
+
+#MainDiv{
+    width:1620px;
+    margin:auto;
+    overflow:hidden;
+}
+
+#MainLeftDiv{
+    float:left;
+    width:1120px;
+    overflow:hidden;
+    padding-top:100px;
+}
+
+#MainRightDiv{
+    float:left;
+    width:490px;
+    border-left:1px solid #000000;
+	height: 2252px;
+    margin-bottom: 20px;
+	padding-left:20px;
+}
+
+#MainRightDivDateTitile {
+    font-family: 'Montserrat';
+    font-size:20px;
+    color:#000000;
+    padding-left:20px;
+	font-weight:bold;
+}
+
+#MainRightDivTitile {
+    width: 233px;
+    font-family: 'Montserrat-Regular';
+    font-size: 32px;
+    color: rgb(255, 249, 249);
+    background: #780b89;
+    margin-top: 89px;
+    padding: 5px 20px;
+    margin-left: 5px;
+	display:none;
+}
+
+.MainRightDivTopNews{
+    overflow:hidden;
+    padding-top:35px;
+    padding-left:20px;
+	display:none;
+}
+
+.MainRightDivTopNewsImage{
+    float:left;
+    background:url("../images/RightImage.png") no-repeat center center;
+    background-size:144px 144px;
+    width:144px;
+    height:144px;
+	display:none;
+    
+}
+
+.MainRightDivTopNewsText {
+    float: left;
+    font-family: 'Montserrat-Regular';
+    font-size: 23px;
+    color:rgb(0,0,0);
+    padding-top: 30px;
+    padding-left: 20px;
+	display:none;
+}
+
+#MainLeftDivLeft {
+    float: left;
+    margin-right: 50px;
+    /*background: url("../images/MainLeftImage.jpg") no-repeat center center;*/
+    width: 555px;
+    height: 437px;
+    background-size: 555px 437px;
+    padding-top:385px;
+    box-sizing:border-box;
+}
+
+#MainLeftDivLeftText {
+    /*width: 180px;
+    font-family: 'Montserrat';
+    color: rgb(252,249, 249);
+    font-size: 24px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(120, 11, 137, 0.45);*/
+	font-family: 'Montserrat-bold';
+	/*font-family: 'Futura Today Bold',arial,sans-serif;*/
+	color:#fff;
+	/*background-color:rgb(158, 29, 10);*/
+	position:absolute;
+	top:10px;
+	/*z-index:2;*/
+	/*line-height:9px;*/
+	/*letter-spacing:1px;*/
+	padding:8px;
+	text-transform:uppercase;
+	font-size:16px;
+	margin-left:10px;
+	white-space:nowrap;	
+}
+
+#MainLeftDivLeftTextUnder {
+    float:left;
+    width:555px;
+    margin-top: 10px;
+    font-family: 'Montserrat-bold'; 
+    font-size:26px;
+    color:rgb(0,0,0);
+    line-height:24px;
+    letter-spacing:-0.02 em;
+    opacity:1;
+}
+
+#MainLeftDivRight {
+    float: left;
+}
+
+#MainLeftDivTopRight{
+    width:500px;
+}
+
+#MainLeftDivTopRightImage {
+    /*background: url("../images/MainLeftTopImage.jpg") no-repeat center center;*/
+    width: 475px;
+    height: 210px;
+	background-repeat:no-repeat;
+    background-size: 475px 210px;
+    box-sizing: border-box;
+    padding-top: 94px;
+}
+
+#MainLeftDivTopRightImageText {
+    /*font-family: 'Montserrat';
+    padding: 10px 0 10px 10px;
+    color: rgb(252,249, 249);
+    font-size: 18px;
+    background: rgba(42, 255, 0, 0.45);*/
+	font-family: 'Montserrat-bold';
+    color: #fff;
+    /*background-color: rgb(19, 127, 57);*/
+    position: absolute;
+    top: 10px;
+    padding: 4px;
+    text-transform: uppercase;
+    font-size: 11px;
+    left: 10px;
+    white-space: nowrap;
+}
+
+#MainLeftDivTopRightImageBottomText {
+    font-family: 'Montserrat';
+    color: #fff;
+    margin-top: 10px;
+    line-height: 23px;
+    font-size: 15px;
+	background-color: rgba( 0, 0, 0, 0.5 );
+    position: absolute;
+    bottom: 0;
+    width: 474px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+
+#MainLeftDivBottomRightImage {
+    /*background: url("../images/MainLeftBottomImage.jpg") no-repeat center center;*/
+	width: 475px;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: 475px 210px;
+    box-sizing: border-box;
+	bottom:0;
+	margin-top:10px;
+}
+
+a#MainLeftDivBottomRightImageBottomTextA{
+	color:#fff;
+}
+
+#MainLeftDivBottomRightImageText {
+    /*font-family: 'Montserrat';
+    padding: 10px 0 10px 10px;
+    color: rgb(252,249, 249);
+    font-size: 18px;
+    background: rgba(7, 25, 161, 0.45)*/
+	font-family: 'Montserrat-bold';
+    color: #fff;
+    /*background-color: rgb(102,102,102);*/
+    position: absolute;
+    top: 10px;
+    padding: 4px;
+    text-transform: uppercase;
+    font-size: 11px;
+    left: 10px;
+    white-space: nowrap;
+	
+}
+
+#MainLeftDivBottomRightImageBottomText {
+    font-family: 'Montserrat';
+    color: #fff;
+    margin-top: 10px;
+    line-height: 23px;
+    font-size: 15px;
+    background-color: rgba( 0, 0, 0, 0.5 );
+    position: absolute;
+    bottom: 0;
+    width: 474px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#MainLeftMiddleDiv{
+    clear:both;
+    padding-top:122px;
+}
+
+#MainLeftMiddleTitleDiv {
+    width: 233px;
+    font-family: 'Montserrat-Regular';
+    font-size: 32px;
+    color: rgb(255, 249, 249);
+    background: #ff0000;
+    padding: 5px 20px;
+}
+
+.MainLeftMiddleArticileDiv{
+    overflow:hidden;
+    margin-top:33px;
+    margin-bottom:47px;
+}
+
+.MainLeftMiddleArticileImageDiv{
+    float:left;
+    margin-right:20px;
+    /*background:url("../images/ArticileImage.jpg") no-repeat center center;*/
+    width:266px;
+    height:197px;
+    background-size:266px 197px;
+}
+
+.MainLeftMiddleArticileTitleDiv {
+    font-family: 'Montserrat-bold';
+    font-size: 26px;
+    color: rgb(0,0,0);
+    line-height: 24px;
+    opacity: 1;
+}
+
+.MainLeftMiddleArticileTextDiv {
+    float: left;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #000000;
+    line-height: 23px;
+    font-size: 18px;
+    width:660px;
+    margin-top:35px;
+}
+
+#MainLeftBottomDiv{
+    clear:both;
+}
+
+#MainLeftBottomTitleDiv {
+    width: 233px;
+    font-family: 'Montserrat-Regular';
+    font-size: 32px;
+    color: rgb(255, 249, 249);
+    background: #038ef9;
+    padding: 5px 20px;
+}
+
+#MainLeftBottomVideoDiv{
+    padding-top:33px;
+    overflow:hidden;
+}
+
+#MainLeftBottomMainVideoDiv{
+    /*background:url("../images/VideoUnitImage.jpg") no-repeat center center;*/
+    width:721px;
+    height:405px;
+    float:left;
+    margin-right:50px;
+}
+
+#myVideo {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+#MainLeftBottomSmallVideoImageDiv{
+    float:left;
+    padding-top:50px;
+}
+
+.MainLeftBottomSmallVideoImageDiv{
+    background:url("../images/SmallVideoUnitImage.jpg") no-repeat center center;
+    width:173px;
+    height:103px;
+	background-size:173px 103px;
+    margin-bottom:15px;
+	cursor:pointer;
+}
+
+#MainLeftBottomMainVideoTitleDiv {
+    margin-top:10px;
+    font-family: 'Montserrat-bold';
+    font-size: 26px;
+    color: rgb(0,0,0);
+    line-height: 24px;
+    opacity: 1
+}
+
+#MainLeftBottomMainVideoTextDiv {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #000000;
+    line-height: 23px;
+    font-size: 18px;
+    margin-top: 26px;
+    width: 660px;
+}
+
+#MainRightBottomDiv{
+    padding-top:20px;
+    margin-top:62px;
+    border-top:1px solid #000000;
+    width:400px;
+}
+
+#MainRightBottomFirstImageDiv {
+    background: url("../images/RightFirstImage.jpg") no-repeat center center;
+    width: 294px;
+    height: 238px;
+    background-size: 294px 238px;
+}
+
+#MainRightBottomFirstTextDiv {
+    font-family: 'Montserrat-Regular';
+    font-size:19px;
+    color:rgb(0,0,255);
+    margin-top:5px;
+}
+
+
+#MainRightBottomSecondImageDiv {
+    background: url("../images/RightFirstImage.jpg") no-repeat center center;
+    width: 294px;
+    height: 238px;
+    background-size: 294px 238px;
+}
+
+#MainRightBottomSecondTextDiv {
+    font-family: 'Montserrat-Regular';
+    font-size: 19px;
+    color: rgb(0,0,255);
+    margin-top: 5px;
+}
+
+
+#MainRightBottomThirdImageDiv {
+    background: url("../images/RightThirdImage.jpg") no-repeat center center;
+    width: 300px;
+    height: 600px;
+    background-size: 300px 600px;
+}
+
+
+/*Fixed CSS Links*/
+
+#MainLeftDivTopRightImageBottomText a{
+	text-decoration:none;
+	color: #fff;
+}
+
+a{
+	text-decoration:none;
+	color: rgb(37,37,37);
+}
+
+.MainLeftBottomSmallVideoImageDiv:nth-child(2){
+	background-image:url('../images/SmallVideoUnitImage2.jpg');
+}
+
+.MainLeftBottomSmallVideoImageDiv:nth-child(3){
+	background-image:url('../images/SmallVideoUnitImage3.jpg');
+}
+
+
+#NewVideo{
+	overflow:hidden;
+	padding-top:33px;
+	padding-bottom:33px;
+	display:none;
+}
+
+#MainNewVideo{
+	width:721px;
+    height:405px;
+    float:left;
+    margin-right:50px;
+}
+
+#SmallNewVideo{
+	float:left;
+	padding-top:50px;
+}
+
+#CanadanewsVideo{
+	width:100%;
+	height:auto;
+}
+
+#SmallNewVideoFirst{
+	/*background: url('../images/SmallVideoUnitImage.jpg') no-repeat center center;*/
+	background-position:center center;
+	background-repeat:no-repeat;
+    width: 173px;
+    height: 103px;
+    background-size: 173px 103px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#SmallNewVideoSecond{
+	/*background: url('../images/SmallVideoUnitImage2.jpg') no-repeat center center;*/
+	background-position:center center;
+	background-repeat:no-repeat;
+    width: 173px;
+    height: 103px;
+    background-size: 173px 103px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#SmallNewVideoFirstThird{
+	/*background: url('../images/SmallVideoUnitImage3.jpg') no-repeat center center;*/
+	background-position:center center;
+	background-repeat:no-repeat;
+    width: 173px;
+    height: 103px;
+    background-size: 173px 103px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1619px) {
+
+    #HeaderDiv{
+        width:100%;
+    }
+
+    #MainDiv{
+        width:100%;
+        padding-left:20px;
+    }
+
+    #MainLeftDiv{
+        padding-top:35px;
+        width:70%;
+    }
+
+    #MainLeftDivLeft {
+        width: 400px;
+        height: 335px;
+        background-size: 400px 335px;
+        padding-top: 283px;
+        margin-right: 25px;
+    }
+
+    #MainLeftDivTopRightImage, #MainLeftDivBottomRightImage {
+        width: 140px;
+        height: 110px;
+        background-size: 140px 110px;
+        padding-top: 82px;
+    }
+
+    #MainLeftDivBottomRightImage{
+        margin-top:10px;
+    }
+
+    #MainLeftDivTopRightImageText, #MainLeftDivBottomRightImageText {
+        /*font-size: 14px;*/
+        /*padding: 5px 0 5px 5px;*/
+    }
+
+    #MainLeftDivTopRightImageBottomText, #MainLeftDivBottomRightImageBottomText {
+        font-size: 14px;
+        line-height:16px;
+        width: 335px;
+		padding-right:10px;
+    }
+
+    #MainLeftDivLeftTextUnder{
+        /*font-size:20px;
+        width:367px;
+        clear:both;*/
+    }
+
+    #MainRightDiv{
+        width:25%;
+        height:2070px;
+    }
+
+    #MainLeftDivTopRight{
+        width:428px;
+    }
+
+    #MainLeftMiddleDiv{
+        padding-top:70px;
+    }
+
+    .MainLeftMiddleArticileTitleDiv {
+        font-size: 22px;
+    }
+
+    .MainLeftMiddleArticileTextDiv{
+        width:530px;
+    }
+
+    #MainLeftBottomMainVideoDiv{
+        width:560px;
+        background-size:560px 336px;
+    }
+
+    .MainLeftMiddleArticileTextDiv, #MainLeftBottomMainVideoTextDiv {
+        font-size: 16px;
+    }
+
+    #MainLeftBottomMainVideoTitleDiv {
+        font-size: 22px;
+    }
+
+    #MainRightDivTitile{
+        margin-top:70px;
+    }
+
+    .MainRightDivTopNewsImage{
+        width:110px;
+        height:110px;
+        background-size:110px 110px;
+    }
+
+    .MainRightDivTopNewsText{
+        font-size:14px;
+    }
+
+    #MainRightBottomDiv{
+        width:317px;
+    }
+
+   .MainLeftBottomSmallVideoImageDiv{
+		height:81px;
+		background-size:auto;
+	}
+	
+	#MainLeftBottomMainVideoDiv{
+		height:336px;
+	}
+}
+
+@media only screen and (max-width: 1239px) {
+
+    #MainDiv {
+        padding-left: 0;
+    }
+
+    #MainLeftDiv {
+        padding-left: 20px;
+    }
+
+    #MainLeftDivLeft {
+        width: 340px;
+        height: 300px;
+        background-size: 340px 300px;
+        padding-top: 253px;
+    }
+
+    #MainLeftDivLeftText {
+        /*font-size: 20px;*/
+    }
+
+    #MainLeftDivTopRight {
+        width: 330px;
+    }
+
+    #MainLeftDivTopRightImageText, #MainLeftDivBottomRightImageText {
+        /*font-size: 12px;*/
+    }
+
+    #MainLeftDivTopRightImage, #MainLeftDivBottomRightImage {
+        width: 120px;
+        height: 100px;
+        background-size: 120px 100px;
+        padding-top: 74px;
+    }
+
+    #MainLeftDivLeftTextUnder {
+        font-size: 18px;
+    }
+
+    #MainLeftMiddleDiv {
+        padding-top: 60px;
+    }
+
+    .MainLeftMiddleArticileTitleDiv {
+        font-size: 18px;
+    }
+
+    #MainLeftMiddleTitleDiv {
+        width: 160px;
+        font-size: 26px;
+    }
+
+    .MainLeftMiddleArticileImageDiv {
+        width: 240px;
+        height: 190px;
+        background-size: 240px 190px;
+    }
+
+    .MainLeftMiddleArticileTextDiv, #MainLeftBottomMainVideoTextDiv {
+        font-size: 15px;
+    }
+
+    .MainLeftMiddleArticileTextDiv {
+        width: 430px;
+    }
+
+    #MainLeftBottomMainVideoDiv {
+        width: 460px;
+        background-size: 460px 336px;
+    }
+
+    #MainLeftBottomTitleDiv {
+        width: 160px;
+        font-size: 26px;
+    }
+
+    #MainLeftBottomMainVideoTitleDiv {
+        font-size: 18px;
+    }
+
+    #MainLeftBottomMainVideoTextDiv {
+        margin-top: 12px;
+    }
+
+    #MainRightDivTitile {
+        margin-top: 40px;
+        width:160px;
+        font-size:26px;
+    }
+
+    .MainRightDivTopNewsImage{
+        width:95px;
+        height:95px;
+        background-size:95px 95px;
+    }
+
+    .MainRightDivTopNews{
+        padding-left:15px;
+    }
+
+    .MainRightDivTopNewsText {
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    #MainRightBottomDiv{
+        width:237px;
+    }
+
+    #MainRightBottomFirstImageDiv, #MainRightBottomSecondImageDiv{
+        width:212px;
+        height:220px;
+        background-size:212px 220px;
+    }
+
+    #MainRightBottomFirstTextDiv, #MainRightBottomSecondTextDiv{
+        font-size:14px;
+    }
+
+    #MainRightBottomThirdImageDiv{
+        width:220px;
+        height:520px;
+        background-size:220px 520px;
+    }
+
+    #MainRightDiv{
+        height:1830px;
+    }
+	
+	
+	
+
+}
+
+@media only screen and (max-width: 1023px) {
+	
+	#MainLeftDivBottomRightImageText{
+		top:172px;
+	}
+		
+	#MainLeftBottomMainVideoDiv{
+		height:280px;
+	}
+
+    #HeaderLogoDiv {
+        width: 246px;
+        height: 80px;
+        background-size: 246px 80px;
+    }
+
+    .HeaderManuDiv {
+        font-size: 12px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    #TopRedBar {
+        height: 20px;
+    }
+
+    #MainLeftDiv {
+        overflow: visible;
+    }
+
+    #MainLeftDivLeft {
+        float: none;
+        height: 254px;
+        width: 500px;
+        background-size: 500px 254px;
+        padding-top: 207px;
+    }
+
+    #MainLeftDivRight {
+        float: none;
+        margin-top: 30px;
+    }
+
+    #MainLeftDivTopRightImage, #MainLeftDivBottomRightImage {
+        width: 200px;
+        height: 120px;
+        background-size: 200px 150px;
+        padding-top: 94px;
+    }
+
+
+
+    #MainLeftDivTopRight {
+        width: 500px;
+        overflow: hidden;
+    }
+
+    #MainLeftDivTopRightImage, #MainLeftDivBottomRightImage {
+        float: left;
+    }
+
+    #MainLeftDivTopRightImageBottomText, #MainLeftDivBottomRightImageBottomText {
+        float: left;
+        width: 290px;
+        padding-left:10px;
+    }
+
+    div#MainLeftDivBottomRightImage {
+        margin-top: 42px;
+    }
+
+    #MainLeftDivBottomRightImageBottomText {
+        margin-top: 53px;
+    }
+
+    #MainLeftDivBottomRightImage {
+        clear: both;
+    }
+
+    #MainLeftDivLeftTextUnder{
+        display:none;
+    }
+
+    #MainLeftDivLeftTextUnderMobile {
+        display: block;
+        margin-top: 10px;
+        font-family: 'Montserrat-bold';
+        font-size: 18px;
+        color: rgb(0,0,0);
+        line-height: 20px;
+        opacity: 1;
+    }
+
+    #MainLeftMiddleTitleDiv{
+        font-size:20px;
+        width:130px;
+    }
+
+    .MainLeftMiddleArticileImageDiv{
+        width:200px;
+        height:170px;
+        background-size:200px 170px;
+    }
+
+    .MainLeftMiddleArticileTitleDiv{
+        font-size:16px;
+    }
+
+    .MainLeftMiddleArticileTextDiv{
+        width:297px;
+        font-size:13px;
+        margin-top:4px;
+    }
+
+    #MainLeftBottomMainVideoDiv{
+        width:500px;
+        background-size:500px 336px;
+    }
+
+    #MainLeftMiddleArticileDiv{
+        margin-top:25px;
+    }
+
+    #MainLeftBottomVideoDiv{
+        padding-top:25px;
+    }
+
+    #MainLeftBottomTitleDiv {
+        font-size: 20px;
+    }
+
+    #MainLeftBottomSmallVideoImageDiv{
+        overflow:hidden;
+        padding-top:25px;
+    }
+
+    .MainLeftBottomSmallVideoImageDiv{
+        float:left;
+        margin-right:20px;
+        width:152px;
+        background-size:153px 81px;
+    }
+
+    #MainLeftBottomMainVideoTitleDiv{
+        font-size:16px;
+    }
+
+    #MainLeftBottomMainVideoTextDiv{
+        width:500px;
+    }
+
+    #MainRightDivTitile{
+        font-size:20px;
+        width:130px;
+    }
+
+    .MainRightDivTopNewsImage{
+        width:47px;
+        height:47px;
+        background-size:47px 47px
+    }
+
+    .MainRightDivTopNewsText{
+        font-size:12px;
+        padding-top:6px;
+    }
+
+    .MainRightDivTopNews{
+        padding-left:10px;
+    }
+
+    #MainRightBottomDiv{
+        width:168px;
+    }
+
+    #MainRightBottomFirstImageDiv, #MainRightBottomSecondImageDiv{
+        width:170px;
+        height:180px;
+        background-size:170px 180px;
+    }
+
+    #MainRightBottomThirdImageDiv{
+        width:174px;
+        height:500px;
+        background-size:174px 500px;
+    }
+
+    #MainRightDiv{
+        height:2050px;
+    }
+
+    #MainLeftMiddleDiv{
+        padding-top:40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+	 #MainRightDiv {
+        display: none;
+    } 
+
+    #HeaderManuDiv {
+        display: none;
+    }
+
+    /*#Main, #Header, #TopRedBar {
+        display: none;
+    }*/
+
+    #HeaderManuMobileDiv {
+        display: block;
+    }
+
+
+    /*Top Manu Mobile*/
+
+    body {
+        margin: 0;
+        padding: 0;
+        /* make it look decent enough */
+        overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: #232323;
+        transition: color 0.3s ease;
+        font-family: 'Montserrat';
+    }
+
+        #menu a:hover {
+            color: tomato;
+        }
+
+    #menuToggle {
+        display: block;
+        position: absolute;
+        top: 22px;
+        right: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+        #menuToggle input {
+            display: block;
+            width: 40px;
+            height: 32px;
+            position: absolute;
+            top: -7px;
+            left: -5px;
+            cursor: pointer;
+            opacity: 0; /* hide this */
+            z-index: 2; /* and place it over the hamburger */
+            -webkit-touch-callout: none;
+        }
+
+        /*
+ * Just a quick hamburger
+ */
+        #menuToggle span {
+            display: block; 
+            width: 33px;
+            height: 4px;
+            margin-bottom: 5px;
+            position: relative;
+            background: #cdcdcd;
+            border-radius: 3px;
+            z-index: 1;
+            transform-origin: 4px 0px;
+            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+        }
+
+            #menuToggle span:first-child {
+                transform-origin: 0% 0%;
+            }
+
+            #menuToggle span:nth-last-child(2) {
+                transform-origin: 0% 100%;
+            }
+
+        /* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+        #menuToggle input:checked ~ span {
+            opacity: 1;
+            transform: rotate(45deg) translate(-2px, -1px);
+            background: #232323;
+        }
+
+            /*
+ * But let's hide the middle one.
+ */
+            #menuToggle input:checked ~ span:nth-last-child(3) {
+                opacity: 0;
+                transform: rotate(0deg) scale(0.2, 0.2);
+            }
+
+            /*
+ * Ohyeah and the last one should go the other direction
+ */
+            #menuToggle input:checked ~ span:nth-last-child(2) {
+                opacity: 1;
+                transform: rotate(-45deg) translate(0, -1px);
+            }
+
+    /*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+    #menu {
+        position: absolute;
+        width: 300px;
+        margin: -100px 0 0 0;
+        padding: 50px;
+        padding-top: 125px;
+        right: -100px;
+        background: #ededed;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+        transform-origin: 0% 0%;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+        #menu li {
+            padding: 10px 0;
+            font-size: 22px;
+        }
+
+    /*
+ * And let's fade it in from the left
+ */
+    #menuToggle input:checked ~ ul {
+        transform: scale(1.0, 1.0);
+        opacity: 1;
+    }
+
+    #HeaderLogoDiv {
+		background:url('../images/logo_mobile_70x200.gif');
+        width: 200px;
+        height: 70px;
+        background-size: auto;
+    }
+
+    #HeaderDiv {
+        height: 66px;
+    }
+
+    /* Test
+        #MainLeftDivLeft {
+        display: none;
+    }
+
+    #MainLeftDiv{
+        width:auto;
+        padding-right:20px;
+
+    }
+
+    #MainImageMobile {
+        display: block;
+        width: 100%;
+    }
+
+    #MainLeftDivTopRightImage, #MainLeftDivBottomRightImage{
+        width:120px;
+        height:100px;
+        background-size:120px 100px;
+        padding-top:78px;
+    }*/
+
+
+    /*Mobile Vrersion*/
+
+    #Main {
+        display: none;
+    }
+
+    #MainMobileDiv {
+        display: block;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        /*padding-top: 20px;*/
+    }
+
+    #MainImageTopMobile {
+        width: 100%;
+    }
+
+    #MainMobileMainTopText {
+        font-family: 'Montserrat-bold';
+        font-size: 18px;
+        color: rgb(0,0,0);
+        padding-left: 6px;
+    }
+	
+	#MainMobileMainTop{
+		position:relative;
+	}
+
+    #MainMobileMainTopTextImage {
+        /*width: 180px;
+        font-family: 'Montserrat-bold';
+        color: rgb(252,249, 249);
+        background: rgba(120, 11, 137, 0.5);
+        font-size: 18px;
+        padding: 10px 0 10px 5px;
+        position: absolute;
+        top: 251px;
+        display: none;*/
+		font-family: 'Montserrat-bold';
+		color: #fff;
+		/*background-color: rgb(158, 29, 10);*/
+		position: absolute;
+		top: 10px;
+		padding: 4px;
+		text-transform: uppercase;
+		font-size: 12px;
+		margin-left: 10px;
+		white-space: nowrap;
+		
+    }
+
+    #MainMobileTopBottom {
+        padding-top: 30px;
+    }
+
+    #MainMobileTopBottomTop{
+        overflow:hidden;
+		position:relative;
+		margin-bottom:20px;
+    }
+
+    #MainMobileTopBottomBottom{
+        overflow:hidden;
+		position:relative;
+    }
+
+
+    #MainMobileTopBottomTopImage {
+        /*background: url('../images/MainLeftTopImage.jpg') no-repeat center center;*/
+		background-repeat:no-repeat;
+		background-position:center center;
+        width: 120px;
+        height: 100px;
+        background-size: 120px 100px;
+        float: left;
+        margin-right: 10px;
+        padding-top: 67px;
+        box-sizing: border-box;
+    }
+
+    #MainMobileTopBottomTopText {
+        font-family: 'Montserrat-bold';
+        font-size: 13px;
+        color: rgb(37,37,37);
+        margin-top: 10px;
+        line-height: 23px;
+		white-space: initial;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* max-width: 300px; */
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		
+    }
+
+    #MainMobileTopBottomTopImageText {
+        /*font-family: 'Montserrat';
+        padding: 10px 0 10px 10px;
+        color: rgb(252,249, 249);
+        font-size: 13px;
+        background: rgba(42, 255, 0, 0.45);*/
+		font-family: 'Montserrat-bold';
+		color: #fff;
+		/*background-color: rgb(47, 82, 243);*/
+		position: absolute;
+		top: 7px;
+		padding: 4px;
+		text-transform: uppercase;
+		font-size: 9px;
+		left: 5px;
+		white-space: nowrap		
+    }
+
+    #MainMobileTopBottomBottomImage {
+        /*background: url('../images/MainLeftBottomImage.jpg') no-repeat center center;*/
+		background-repeat:no-repeat;
+		background-position:center center;
+        width: 120px;
+        height: 100px;
+        background-size: 120px 100px;
+        margin-right: 10px;
+        padding-top: 67px;
+        box-sizing: border-box;
+        float:left;
+        padding-top:67px;
+    }
+
+    #MainMobileTopBottomBottomImageText {
+        /*font-family: 'Montserrat';
+        padding: 10px 0 10px 10px;
+        color: rgb(252,249, 249);
+        font-size: 13px;
+        background: rgba(7, 25, 161, 0.45);*/
+		font-family: 'Montserrat-bold';
+		color: #fff;
+		/*background-color: rgb(1, 156, 47);*/
+		position: absolute;
+		top: 7px;
+		padding: 4px;
+		text-transform: uppercase;
+		font-size: 9px;
+		left: 5px;
+		white-space: nowrap;		
+    }
+
+    #MainMobileTopBottomBottomText {
+        margin-top: 10px;
+        font-family: 'Montserrat-bold';
+        font-size: 13px;
+        color: rgb(37,37,37);
+        line-height: 23px;
+		white-space: initial;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* max-width: 300px; */
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+    }
+
+    #MainMobileMiddleDiv {
+        padding-top: 30px;
+    }
+
+    #MainMobileMiddleTitileDiv {
+        font-family: 'Montserrat-Regular';
+        font-size: 22px;
+        color: rgb(255, 249, 249);
+        background: #ff0000;
+        padding: 5px 20px;
+        width:125px;
+    }
+
+    .MainMobileMiddleArticleDiv{
+        padding-top:20px;
+        overflow:hidden;
+    }
+
+    .MainMobileMiddleArticleImageDiv{
+        /*background:url("../images/ArticileImage.jpg") no-repeat center center;*/
+		background-repeat:no-repeat;
+		background-position:center center;
+        width:150px;
+        height:120px;
+        background-size:150px 120px;
+        float:left;
+    }
+
+    .MainMobileMiddleArticleTitleDiv {
+        float: left;
+        font-family: 'Montserrat-bold';
+        font-size: 15px;
+        color: rgb(0,0,0);
+        width:calc(100% - 160px);
+        padding-left:10px;
+		white-space: initial;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* max-width: 300px; */
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+    }
+
+    .MainMobileMiddleArticleTextDiv {
+        float: left;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        padding-left: 10px;
+        padding-top: 17px;
+        width: calc(100% - 160px);
+		white-space: initial;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* max-width: 300px; */
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical
+    }
+
+    #MainMobileBottomDiv{
+        padding-top:30px;
+       
+    }
+
+    #MainMobileBottomTitleDiv {
+        font-family: 'Montserrat-Regular';
+        font-size: 22px;
+        color: rgb(255, 249, 249);
+        background: #038ef9;
+        padding: 5px 20px;
+        width: 160px;
+    }
+
+    #MainMobileBottomVideoDiv{
+        /*background:url("../images/VideoUnitImage.jpg") no-repeat center center;*/
+        width:100%;
+        height:auto;
+        background-size:100% 250px;
+        margin:auto;
+        margin-top:20px;
+    }
+
+    #MainMobileBottomVideoImagesDiv{
+        padding-top:20px;
+    }
+
+    .MainMobileBottomVideoImageDiv{
+        /*background:url("../images/VideoUnitImage.jpg") no-repeat center center;*/
+		background:url("../images/SmallVideoUnitImage.jpg") no-repeat center center;
+        width:calc((100% - 30px) / 3);
+        height:100px;
+        background-size:100% 100px;
+        margin-right:10px;
+        float:left; 
+        
+    }
+	
+	.MainMobileBottomVideoImageDiv:nth-child(2){
+		/*background-image:url("../images/MainLeftTopImage.jpg");*/
+		background-image:url("../images/SmallVideoUnitImage2.jpg");
+	}
+	
+	.MainMobileBottomVideoImageDiv:nth-child(3){
+		/*background-image:url("../images/MainLeftBottomImage.jpg");*/
+		background-image:url("../images/SmallVideoUnitImage3.jpg");
+	}
+
+    #MainMobileBottomDownArticleDiv {
+        padding-top: 10px;
+        clear:both;
+    }
+
+    #MainMobileBottomDownArticleTitleDiv {
+        font-family: 'Montserrat-bold';
+        font-size: 17px;
+        color: rgb(0,0,0);
+        color: #000000;
+    }
+
+    #MainMobileBottomDownArticleTextDiv {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #000000;
+        line-height: 23px;
+        margin-top: 10px;
+		padding-bottom:30px;
+    }
+
+    #TickerForMobile{
+        display:block;
+		height:50px;
+    }
+	
+	#TickerForMobileTitle, #webticker-update-example{
+		display:none;
+	}
+
+    #webticker-update-example li {
+        font-size: 14px;
+        font-family: 'Montserrat';
+        color:#000000;
+    }
+	
+	#TickerForMobileTitle{
+		font-family:'Montserrat-Regular';
+		color:rgb(255, 249, 249);
+		background:#780b89;
+		font-size:18px;
+		padding:5px 20px;
+		width:189px;
+		margin-bottom:10px;
+	}
+	
+	#MainMobileBottomDownTitleArticleDiv{
+		font-family: 'Montserrat';
+		padding: 10px 0 10px 10px;
+		color: rgb(252,249, 249);
+		font-size: 18px;
+		background: rgb(34, 181, 6);
+		margin-bottom:10px;
+		width:160px;
+	}
+	
+	#MainMobileBottomDownSecondArticleDiv{
+		background:url('../images/YoungProMobileBottom.jpg') no-repeat center center;
+		width:100%;
+		height:280px;
+		background-size:100% 280px;
+	}
+	
+	#MainMobileBottomDownSecondArticleTextDiv{
+		font-family:'Montserrat-Regular';
+		font-size:14px;
+		color:rgb(0,0,255);
+		margin-top:5px;
+	}
+	
+	#MainMobileBottomDownThirdArticleDiv{
+		background:url('../images/OpenDoors.jpg') no-repeat center center;
+		width:100%;
+		height:250px;
+		background-size:100% 250px;
+		margin-top:10px;
+	}
+	
+	#MainMobileBottomDownThirdArticleTextDiv{
+		font-family:'Montserrat-Regular';
+		font-size:14px;
+		color:rgb(0,0,255);
+		margin-top:5px;
+		margin-top:10px;
+	}
+	
+	#myVideoMobile{
+		width:100%;
+		height:auto;
+	}
+	
+#TopRedBar{
+	display:none;
+}
+	
+	
+	
+}
+
+

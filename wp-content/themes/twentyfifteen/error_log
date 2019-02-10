@@ -1,0 +1,9 @@
+[26-Feb-2018 02:17:42 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/uiscanada/public_html/wp-content/themes/twentyfifteen/content-link.php on line 13
+[04-Mar-2018 05:22:05 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/uiscanada/public_html/wp-content/themes/twentyfifteen/content.php on line 13
+[05-Mar-2018 23:18:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/uiscanada/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[06-Mar-2018 08:33:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/uiscanada/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[19-Mar-2018 13:39:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/uiscanada/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[23-Mar-2018 12:28:22 UTC] PHP Fatal error:  Call to undefined function _e() in /home/uiscanada/public_html/wp-content/themes/twentyfifteen/author-bio.php on line 12
+[23-Mar-2018 16:28:38 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/uiscanada/public_html/wp-content/themes/twentyfifteen/archive.php on line 19
+[28-Jun-2018 01:29:03 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/uiscanada/public_html/wp-content/themes/twentyfifteen/content.php on line 13
+[28-Jun-2018 07:06:04 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/uiscanada/public_html/wp-content/themes/twentyfifteen/content-link.php on line 13

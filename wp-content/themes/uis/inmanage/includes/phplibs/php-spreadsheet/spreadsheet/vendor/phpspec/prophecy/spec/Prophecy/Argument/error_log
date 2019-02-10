@@ -1,0 +1,2 @@
+[20-Jul-2018 04:08:40 UTC] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpspec/prophecy/spec/Prophecy/Argument/ArgumentsWildcardSpec.php on line 9
+[20-Jul-2018 06:51:28 UTC] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpspec/prophecy/spec/Prophecy/Argument/ArgumentsWildcardSpec.php on line 9

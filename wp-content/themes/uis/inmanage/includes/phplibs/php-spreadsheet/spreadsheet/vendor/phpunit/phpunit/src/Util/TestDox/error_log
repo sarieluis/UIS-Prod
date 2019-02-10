@@ -1,0 +1,2 @@
+[20-Jul-2018 04:08:41 UTC] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpunit/phpunit/src/Util/TestDox/ResultPrinter.php on line 14
+[20-Jul-2018 06:51:41 UTC] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpunit/phpunit/src/Util/TestDox/ResultPrinter.php on line 14

@@ -1,0 +1,5 @@
+[04-Mar-2018 22:14:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/uiscanada/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[11-Mar-2018 19:56:22 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/uiscanada/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[19-Mar-2018 01:43:50 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/uiscanada/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[20-Mar-2018 06:48:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/uiscanada/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[23-Mar-2018 00:50:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/uiscanada/public_html/wp-content/themes/twentyseventeen/404.php on line 13

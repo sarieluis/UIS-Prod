@@ -1,0 +1,110 @@
+.footer {
+  background: #232323;
+  color: #fff;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  text-align: center;
+
+  @include screen-sm {
+    text-align: left;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: #5a5959;
+    }
+  }
+
+  &-top {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+
+    @include screen-sm {
+      padding-top: 5rem;
+      padding-bottom: 2.5rem;
+    }
+
+    @include screen-lg {
+      padding-top: 7rem;
+      padding-bottom: 4rem;
+      font-size: 1.8rem;
+    }
+
+    &:after {
+      @include screen-sm {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #4f4f4f;
+      }
+    }
+
+    &-item {
+      @include screen-sm {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+
+        @include screen-sm {
+          margin-bottom: 0;
+          margin-right: 5%;
+        }
+      }
+
+      span {
+        @include screen-sm {
+          display: block;
+        }
+      }
+    }
+
+    &-logo {
+      display: inline-block;
+      max-width: 20%;
+      margin-bottom: 1.5rem;
+
+      @include screen-sm {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &-bottom {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    color: #5a5959;
+    font-size: 1.2rem;
+
+    @include screen-sm {
+      padding-top: 3rem;
+    }
+
+    @include screen-lg {
+      padding-top: 4.5rem;
+      padding-bottom: 3.5rem;
+      font-size: 1.4rem;
+    }
+
+    .copyright {
+      &-top {
+        margin-bottom: 1rem;
+
+        @include screen-sm {
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+}

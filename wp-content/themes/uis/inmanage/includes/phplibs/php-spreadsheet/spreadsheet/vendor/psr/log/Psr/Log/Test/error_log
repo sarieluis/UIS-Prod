@@ -1,0 +1,2 @@
+[20-Jul-2018 04:08:32 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php on line 15
+[20-Jul-2018 06:51:11 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php on line 15

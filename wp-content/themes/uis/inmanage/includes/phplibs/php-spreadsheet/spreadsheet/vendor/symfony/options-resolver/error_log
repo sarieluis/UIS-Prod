@@ -1,0 +1,2 @@
+[20-Jul-2018 03:50:35 UTC] PHP Fatal error:  Interface 'Symfony\Component\OptionsResolver\Options' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/symfony/options-resolver/OptionsResolver.php on line 28
+[20-Jul-2018 06:51:40 UTC] PHP Fatal error:  Interface 'Symfony\Component\OptionsResolver\Options' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/symfony/options-resolver/OptionsResolver.php on line 28

@@ -1,0 +1,2 @@
+[20-Jul-2018 04:08:40 UTC] PHP Fatal error:  Interface 'Prophecy\Exception\Exception' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpspec/prophecy/src/Prophecy/Exception/InvalidArgumentException.php on line 15
+[20-Jul-2018 06:51:26 UTC] PHP Fatal error:  Interface 'Prophecy\Exception\Exception' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpspec/prophecy/src/Prophecy/Exception/InvalidArgumentException.php on line 15

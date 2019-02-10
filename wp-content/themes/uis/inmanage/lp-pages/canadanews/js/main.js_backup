@@ -1,0 +1,745 @@
+﻿//var qs = (function (a) {
+//    if (a == "") return {};
+//    var b = {};
+//    for (var i = 0; i < a.length; ++i) {
+//        var p = a[i].split('=', 2);
+//        if (p.length == 1)
+//            b[p[0]] = "";
+//        else
+//            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+//    }
+//    return b;
+//})(window.location.search.substr(1).split('&'));
+
+//qs["utm_af"];    // 123
+//qs["name"];     // query string
+//qs["nothere"];
+
+//console.log(qs["utm_af"]);
+
+//var affiliate = document.getElementById('affiliate');
+//affiliate.value = qs["utm_af"];
+
+
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth() + 1; //January is 0!
+var yyyy = today.getFullYear();
+
+if (dd < 10) {
+    dd = '0' + dd
+}
+
+if (mm < 10) {
+    mm = '0' + mm
+}
+
+today = mm + '.' + dd + '.' + yyyy;
+//document.write(today);
+//document.getElementById("MainRightDivDateTitile").innerHTML = today;
+
+
+//Video
+/*
+function ChangeAndPlayVideo() {
+	var video = document.getElementById('myVideo');
+	
+	setTimeout(function(){
+		video.pause();
+		
+		video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_2.mp4'
+		video.load();
+		video.play();
+}, 3000);
+*/
+
+function ChangeAndPlayVideo2() {
+    var video = document.getElementById('myVideo');
+
+    video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_2.mp4'
+    video.play();
+}
+
+function ChangeAndPlayVideo3() {
+    var video = document.getElementById('myVideo');
+
+    video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_3.mp4'
+    video.play();
+}
+
+
+function ChangeAndPlayVideo4() {
+    var video = document.getElementById('myVideo');
+
+    video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_4.mp4'
+    video.play();
+}
+
+var mainImgVideo = '../images/ArticileImage.jpg';
+var oneImgVideo = '../images/SmallVideoUnitImage.jpg';
+var twoImgVideo = '../images/MainLeftTopImage.jpg';
+var threeImgVideo = '../images/MainLeftBottomImage.jpg';
+
+var mainImgNow = '../wp-content/themes/uis/inmanage/lp-pages/canadanews/images/MainVideoImage.jpg'
+
+/*function ChangeAndPlayVideo(spot){
+
+    if (spot == '1'){
+        var img = document.getElementById('MainLeftBottomSmallVideoImageDivOne');
+        style = img.currentStyle || window.getComputedStyle(img, false),
+            imgBack = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+
+        img.style.backgroundImage = 'url('+ mainImgNow +')';
+
+        mainImgNow = imgBack;
+
+        var video = document.getElementById('myVideo');
+
+        if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage.jpg'){
+
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_2.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage2.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_3.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage3.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_4.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/MainVideoImage.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_1.mp4'
+            video.play();
+        }
+    } else if (spot == '2'){
+        var img = document.getElementById('MainLeftBottomSmallVideoImageDivTwo');
+        style = img.currentStyle || window.getComputedStyle(img, false),
+            imgBack = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+
+        img.style.backgroundImage = 'url('+ mainImgNow +')';
+
+        mainImgNow = imgBack;
+
+
+        var video = document.getElementById('myVideo');
+
+        if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage.jpg'){
+
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_2.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage2.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_3.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage3.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_4.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/MainVideoImage.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_1.mp4'
+            video.play();
+        }
+    } else if (spot == '3'){
+
+        var img = document.getElementById('MainLeftBottomSmallVideoImageDivThree');
+        style = img.currentStyle || window.getComputedStyle(img, false),
+            imgBack = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+
+        img.style.backgroundImage = 'url('+ mainImgNow +')';
+
+        mainImgNow = imgBack;
+
+
+        var video = document.getElementById('myVideo');
+
+        if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage.jpg'){
+
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_2.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage2.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_3.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage3.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_4.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/MainVideoImage.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_1.mp4'
+            video.play();
+        }
+
+    }
+}*/
+
+/*function ChangeAndPlayMobileVideo(spot){
+
+    if (spot == '1'){
+        var img = document.getElementById('MainMobileBottomVideoImageDivOne');
+        style = img.currentStyle || window.getComputedStyle(img, false),
+            imgBack = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+
+        img.style.backgroundImage = 'url('+ mainImgNow +')';
+
+        mainImgNow = imgBack;
+
+        var video = document.getElementById('myVideoMobile');
+
+        if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage.jpg'){
+
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_2.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage2.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_3.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage3.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_4.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/MainVideoImage.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_1.mp4'
+            video.play();
+        }
+    } else if (spot == '2'){
+        var img = document.getElementById('MainMobileBottomVideoImageDivTwo');
+        style = img.currentStyle || window.getComputedStyle(img, false),
+            imgBack = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+
+        img.style.backgroundImage = 'url('+ mainImgNow +')';
+
+        mainImgNow = imgBack;
+
+
+        var video = document.getElementById('myVideoMobile');
+
+        if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage.jpg'){
+
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_2.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage2.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_3.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage3.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_4.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/MainVideoImage.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_1.mp4'
+            video.play();
+        }
+    } else if (spot == '3'){
+
+        var img = document.getElementById('MainMobileBottomVideoImageDivThree');
+        style = img.currentStyle || window.getComputedStyle(img, false),
+            imgBack = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+
+        img.style.backgroundImage = 'url('+ mainImgNow +')';
+
+        mainImgNow = imgBack;
+
+
+        var video = document.getElementById('myVideoMobile');
+
+        if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage.jpg'){
+
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_2.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage2.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_3.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage3.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_4.mp4'
+            video.play();
+        }
+        else if (imgBack == 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/images/MainVideoImage.jpg'){
+            video.src = 'https://www.uiscanada.com/wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_1.mp4'
+            video.play();
+        }
+
+    }
+}*/
+
+function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
+
+var articles = [
+    {
+        Title : "CANADA IS BUSTLING",
+        SubTitle : "From Vancouver to Montreal, opportunity is screaming out to you at the top of its lungs.",
+        Label : "Jobs",
+        MainImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/Bustling/Main_Bustling_Image.jpg",
+        RecentImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/Bustling/Bustling_Recent_Image.jpg",
+        Url: "https://www.uiscanada.com/canadanews/bustling/"
+    },
+    {
+        Title : "CANADA NURTURES IMMIGRANT SUCCESS",
+        SubTitle : "Perhaps the best known name of those who immigrated to Canada before making their mark ",
+        Label : "News",
+        MainImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/Musk/Musk_Main_Image.jpg",
+        RecentImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/Musk/Musk_Recent_Image.jpg",
+        Url: "https://www.uiscanada.com/canadanews/musk/"
+    },
+    {
+        Title : "Everything an Immigrant needs to know about the Canadian Educational System. ",
+        SubTitle : "Did you know that over 30% of Canada's school children are either immigrants themselves or have at least one parent that was born abroad? ",
+        Label : "Education",
+        MainImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/EducationalGuide/Educational_Guide_Main_Image.jpg",
+        RecentImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/EducationalGuide/MEducational_Guide_Recent_Image.jpgg",
+        Url: "https://www.uiscanada.com/canadanews/educationalguide/"
+    },
+    {
+        Title : "CANADA TO WELCOME IMMIGRANTS WITH OPEN ARMS",
+        SubTitle : "The Canadian government under the Prime Minister Justin Trudeau opened its gates to immigrants like no other previous administration.",
+        Label : "News",
+        MainImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/OpenArms/Open_Arms_Main_Image.jpg",
+        RecentImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/OpenArms/Open_Arms_Recent_Image.jpg",
+        Url: "https://www.uiscanada.com/canadanews/openarms/",
+    },
+    {
+        Title : "Top 5 Cities for Immigrants in Canada",
+        SubTitle : "New to Canada? Canada is one of the most welcoming and diverse countries in the world",
+        Label : "City Guide",
+        MainImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/immigrantscities/immigrantscities_main_image.jpg",
+        RecentImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/immigrantscities/immigrantscities_recent_image.jpg",
+        Url: "https://www.uiscanada.com/canadanews/immigrantscities/",
+    },
+    {
+        Title : "10 Most Exciting Things to do in Canada",
+        SubTitle : "From lakes, to mountains, to icebergs, wildlife, and hustling and bustling cities, Canada has everything you could ever want all in one place.",
+        Label : "Travel",
+        MainImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/excitingthings/excitingthings_main_image.jpg",
+        RecentImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/excitingthings/excitingthings_recent_image.jpg",
+        Url: "https://www.uiscanada.com/canadanews/excitingthings/",
+    }
+];
+
+articles = shuffle(articles);
+
+//console.log(articles);
+
+//Main Article
+
+var mainImageArticle = document.getElementById("MainLeftDivLeft");
+var mainArticleTitle = document.getElementById("MainLeftDivLeftTextUnder");
+var mainArticleTitleUrl = document.getElementById("MainArticleImageURL");
+var mainArticleImageUrl = document.getElementById("MainArticleTitleURL");
+var mainArticleLabel = document.getElementById("MainLeftDivLeftText");
+
+mainImageArticle.style.backgroundImage = "url(" + articles[0].MainImage + ")" ;
+mainArticleTitle.innerText = articles[0].Title;
+mainArticleTitleUrl.href = articles[0].Url;
+mainArticleImageUrl.href = articles[0].Url;
+mainArticleLabel.innerText = articles[0].Label;
+
+//Second Article
+
+var secondTopImageArticle = document.getElementById("MainLeftDivTopRightImage");
+var secondTopArticleSubTitle = document.getElementById("MainLeftDivTopRightImageBottomTextA");
+var secondTopArticleSubTitleImageUrl = document.getElementById("TopArticleTopUrl");
+var secondTopArticleLabel = document.getElementById("MainLeftDivTopRightImageText");
+
+secondTopImageArticle.style.backgroundImage = "url(" + articles[1].MainImage + ")";
+secondTopArticleSubTitle.innerText = articles[1].SubTitle;
+secondTopArticleSubTitle.href = articles[1].Url;
+secondTopArticleSubTitleImageUrl.href = articles[1].Url;
+secondTopArticleLabel.innerText = articles[1].Label;
+
+var secondBottomImageArticle = document.getElementById("MainLeftDivBottomRightImage");
+var secondBottomArticleSubTitle = document.getElementById("MainLeftDivBottomRightImageBottomTextA");
+var secondBottomArticleImageUrl = document.getElementById("TopArticleBottomUrl");
+var secondBottomArticleLabel = document.getElementById("MainLeftDivBottomRightImageText");
+
+secondBottomImageArticle.style.backgroundImage = "url(" + articles[2].MainImage + ")";
+secondBottomArticleSubTitle.innerText = articles[2].SubTitle;
+secondBottomArticleSubTitle.href =  articles[2].Url;
+secondBottomArticleImageUrl.href =  articles[2].Url;
+secondBottomArticleLabel.innerText = articles[2].Label;
+
+
+//Recent
+
+var firstRecentImage = document.getElementById("FirstImageRecent");
+var firstRecentTitle = document.getElementById("FirstTitleRecent");
+var firstRecentSubTitle = document.getElementById("FirstSubTitleRecent");
+var firstRecentUrl = document.getElementById("RecentOneLink");
+
+var secondRecentImage = document.getElementById("SecondImageRecent");
+var secontRecentTitle = document.getElementById("SecondTitleRecent");
+var secontRecentSubTitle = document.getElementById("SecondSubTitleRecent");
+var secondRecentUrl = document.getElementById("RecentTwoLink");
+
+var thirdRecentImage = document.getElementById("ThirdImageRecent");
+var thirdRecentTitle = document.getElementById("ThirdTitleRecent");
+var thirdRecentSubTitle = document.getElementById("ThirdSubTitleRecent");
+var thirdRecentUrl = document.getElementById("RecentThreeLink");
+
+firstRecentImage.style.backgroundImage = "url(" + articles[3].MainImage + ")";
+firstRecentTitle.innerText = articles[3].Title;
+firstRecentSubTitle.innerText = articles[3].SubTitle;
+firstRecentUrl.href = articles[3].Url;
+
+secondRecentImage.style.backgroundImage = "url(" + articles[4].MainImage + ")";
+secontRecentTitle.innerText = articles[4].Title;
+secontRecentSubTitle.innerText = articles[4].SubTitle;
+secondRecentUrl.href = articles[4].Url;
+
+thirdRecentImage.style.backgroundImage = "url(" + articles[5].MainImage + ")";
+thirdRecentTitle.innerText = articles[5].Title;
+thirdRecentSubTitle.innerText = articles[5].SubTitle;
+thirdRecentUrl.href = articles[5].Url;
+
+
+//Main Article Mobile
+
+var  mainImageArticleMobile = document.getElementById("MainImageTopMobile");
+var mainTitleArticleMobile = document.getElementById("MainMobileMainTopText");
+var mainArticleUrl = document.getElementById("MainArticleUrlMobile");
+var mainArticleLabelMobile = document.getElementById("MainMobileMainTopTextImage");
+
+mainImageArticleMobile.src = articles[0].MainImage;
+mainTitleArticleMobile.innerText = articles[0].Title;
+mainArticleUrl.href = articles[0].Url;
+mainArticleLabelMobile.innerText = articles[0].Label;
+
+//Second Main Article Mobile
+
+var SecondMainFirstImageArticleMobile = document.getElementById("MainMobileTopBottomTopImage");
+var SecondMainFirstLabelArticleMobile = document.getElementById("MainMobileTopBottomTopImageText");
+var SecondMainFirstSubTitleArticleMobile = document.getElementById("MainMobileTopBottomTopText");
+var SecondMainFirstArticleUrlMobile = document.getElementById("SecondMainArticleFirstUrl");
+
+var SecondMainSecondImageArticleMobile = document.getElementById("MainMobileTopBottomBottomImage");
+var SecondMainSecondLabelArticleMobile = document.getElementById("MainMobileTopBottomBottomImageText");
+var SecondMainSecondSubTitleArticleMobile = document.getElementById("MainMobileTopBottomBottomText");
+var SecondMainSecondArticleUrlMobile = document.getElementById("SecondMainArticleSecondUrl");
+
+
+
+SecondMainFirstImageArticleMobile.style.backgroundImage = "url(" + articles[1].MainImage + ")";
+SecondMainFirstLabelArticleMobile.innerText = articles[1].Label;
+SecondMainFirstSubTitleArticleMobile.innerText = articles[1].SubTitle;
+SecondMainFirstArticleUrlMobile.href = articles[1].Url;
+
+SecondMainSecondImageArticleMobile.style.backgroundImage = "url(" + articles[2].MainImage + ")";
+SecondMainSecondLabelArticleMobile.innerText = articles[2].Label;
+SecondMainSecondSubTitleArticleMobile.innerText = articles[2].SubTitle;
+SecondMainSecondArticleUrlMobile.href = articles[2].Url;
+
+
+//Recent Mobile
+
+var RecentImageFirstMobile = document.getElementById("RecentFirstMobileImage");
+var RecentTitleFirstMobile = document.getElementById("RecentFirstMobileTitle");
+var RecentSubTitleFirstMobile = document.getElementById("RecentFirstMobileSubTitle");
+var RecentUrlFirstMobile = document.getElementById("RecentOneMobileUrl");
+
+var RecentImageSecondMobile = document.getElementById("RecentSecondMobileImage");
+var RecentTitleSecondMobile = document.getElementById("RecentSecondMobileTitle");
+var RecentSubTitleSecondMobile = document.getElementById("RecentSecondMobileSubTitle");
+var RecentUrlSecondMobile = document.getElementById("RecentTwoMobileUrl");
+
+var RecentImageThirdMobile = document.getElementById("RecentThirdMobileImage");
+var RecentTitleThirdMobile = document.getElementById("RecentThirdMobileTitle");
+var RecentSubTitleThirdMobile = document.getElementById("RecentThirdMobileSubTitle");
+var RecentUrlThirdMobile = document.getElementById("RecentThreeMobileUrl");
+
+RecentImageFirstMobile.style.backgroundImage = "url(" + articles[3].MainImage + ")";
+RecentTitleFirstMobile.innerText = articles[3].Title;
+RecentSubTitleFirstMobile.innerText = articles[3].SubTitle;
+RecentUrlFirstMobile.href = articles[3].Url;
+
+RecentImageSecondMobile.style.backgroundImage = "url(" + articles[4].MainImage + ")";
+RecentTitleSecondMobile.innerText = articles[4].Title;
+RecentSubTitleSecondMobile.innerText = articles[4].SubTitle;
+RecentUrlSecondMobile.href = articles[4].Url;
+
+RecentImageThirdMobile.style.backgroundImage = "url(" + articles[5].MainImage + ")";
+RecentTitleThirdMobile.innerText = articles[5].Title;
+RecentSubTitleThirdMobile.innerText = articles[5].SubTitle;
+RecentUrlThirdMobile.href = articles[5].Url;
+
+
+labelBackgroundColors = [
+    '#137F39',
+    '#b602f4',
+    '#ff0734',
+    '#0201E0'
+];
+
+labelBackgroundColors = shuffle(labelBackgroundColors);
+
+mainArticleLabel.style.backgroundColor = labelBackgroundColors[0];
+secondTopArticleLabel.style.backgroundColor = labelBackgroundColors[1];
+secondBottomArticleLabel.style.backgroundColor = labelBackgroundColors[2];
+mainArticleLabelMobile.style.backgroundColor = labelBackgroundColors[0];
+SecondMainFirstLabelArticleMobile.style.backgroundColor = labelBackgroundColors[1];
+SecondMainSecondLabelArticleMobile.style.backgroundColor = labelBackgroundColors[2];
+
+
+
+//New Video
+
+var Videos = [
+    {
+        MainImage : "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/Bustling/Bustling_Video_Image_Large.jpg",
+        SmallImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/Bustling/Bustling_Video_Image_Small.png",
+        VideoUrl : "../wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_3.mp4"
+    },
+    {
+        MainImage : "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/Musk/Musk_Video_Image_Large.png",
+        SmallImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/Musk/Musk_Video_Image_Small.jpg",
+        VideoUrl : "../wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_1.mp4"
+    },
+    {
+        MainImage : "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/OpenArms/Open_Arms_Video_Image_Large.jpg",
+        SmallImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/articles/OpenArms/Open_Arms_Video_Image_Small.jpg",
+        VideoUrl : "../wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_2.mp4"
+    },
+    {
+        MainImage : "../wp-content/themes/uis/inmanage/lp-pages/canadanews/images/MainVideoUnitImage3.jpg",
+        SmallImage: "../wp-content/themes/uis/inmanage/lp-pages/canadanews/images/SmallVideoUnitImage3.jpg",
+        VideoUrl : "../wp-content/themes/uis/inmanage/lp-pages/canadanews/video/Video_4.mp4"
+    },
+];
+
+Videos = shuffle(Videos);
+
+var MainNewVideo = document.getElementById("CanadanewsVideo");
+var FirstNewVideo = document.getElementById("SmallNewVideoFirst");
+var SecondNewVideo = document.getElementById("SmallNewVideoSecond");
+var ThirdNewVideo = document.getElementById("SmallNewVideoFirstThird");
+
+
+/*
+MainNewVideo.src = Videos[0].VideoUrl;
+MainNewVideo.poster = Videos[0].MainImage;
+
+FirstNewVideo.style.backgroundImage =  "url(" + Videos[1].SmallImage; + ")" ;
+SecondNewVideo.style.backgroundImage = "url(" + Videos[2].SmallImage; + ")" ;
+ThirdNewVideo.style.backgroundImage = "url(" + Videos[3].SmallImage; + ")" ;
+
+
+function PlayNewVideo(spot){
+
+    var TempMainVideoUrl;
+    var TempMainVideoImage;
+
+    if (spot == "1"){
+        MainNewVideo.poster = Videos[1].MainImage;
+        MainNewVideo.src = Videos[1].VideoUrl;
+        MainNewVideo.play();
+
+        TempMainVideoUrl = Videos[0].VideoUrl;
+        TempMainVideoImage = Videos[0].SmallImage;
+
+        Videos[0].VideoUrl = Videos[1].VideoUrl;
+        Videos[0].SmallImage = Videos[1].SmallImage;
+
+        Videos[1].VideoUrl = TempMainVideoUrl;
+        Videos[1].SmallImage = TempMainVideoImage;
+
+        FirstNewVideo.style.backgroundImage =  "url(" + Videos[1].SmallImage; + ")" ;
+    } else if (spot == "2"){
+        MainNewVideo.poster = Videos[2].MainImage;
+        MainNewVideo.src = Videos[2].VideoUrl;
+        MainNewVideo.play();
+
+        TempMainVideoUrl = Videos[0].VideoUrl;
+        TempMainVideoImage = Videos[0].SmallImage;
+
+        Videos[0].VideoUrl = Videos[2].VideoUrl;
+        Videos[0].SmallImage = Videos[2].SmallImage;
+
+        Videos[2].VideoUrl = TempMainVideoUrl;
+        Videos[2].SmallImage = TempMainVideoImage;
+
+        SecondNewVideo.style.backgroundImage =  "url(" + Videos[2].SmallImage; + ")" ;
+    } else if (spot == "3"){
+        MainNewVideo.poster = Videos[3].MainImage;
+        MainNewVideo.src = Videos[3].VideoUrl;
+        MainNewVideo.play();
+
+        TempMainVideoUrl = Videos[0].VideoUrl;
+        TempMainVideoImage = Videos[0].SmallImage;
+
+        Videos[0].VideoUrl = Videos[3].VideoUrl;
+        Videos[0].SmallImage = Videos[3].SmallImage;
+
+        Videos[3].VideoUrl = TempMainVideoUrl;
+        Videos[3].SmallImage = TempMainVideoImage;
+
+        ThirdNewVideo.style.backgroundImage =  "url(" + Videos[3].SmallImage; + ")" ;
+    }
+};
+
+*/
+
+
+var MainNewVideo = document.getElementById("myVideo");
+var FirstNewVideo = document.getElementById("MainLeftBottomSmallVideoImageDivOne");
+var SecondNewVideo = document.getElementById("MainLeftBottomSmallVideoImageDivTwo");
+var ThirdNewVideo = document.getElementById("MainLeftBottomSmallVideoImageDivThree");
+
+
+
+MainNewVideo.src = Videos[0].VideoUrl;
+MainNewVideo.poster = Videos[0].MainImage;
+
+FirstNewVideo.style.backgroundImage =  "url(" + Videos[1].SmallImage; + ")" ;
+SecondNewVideo.style.backgroundImage = "url(" + Videos[2].SmallImage; + ")" ;
+ThirdNewVideo.style.backgroundImage = "url(" + Videos[3].SmallImage; + ")" ;
+
+
+
+function ChangeAndPlayVideo(spot){
+
+    var TempMainVideoUrl;
+    var TempMainVideoImage;
+
+    if (spot == "1"){
+        MainNewVideo.poster = Videos[1].MainImage;
+        MainNewVideo.src = Videos[1].VideoUrl;
+        MainNewVideo.play();
+
+        TempMainVideoUrl = Videos[0].VideoUrl;
+        TempMainVideoImage = Videos[0].SmallImage;
+
+        Videos[0].VideoUrl = Videos[1].VideoUrl;
+        Videos[0].SmallImage = Videos[1].SmallImage;
+
+        Videos[1].VideoUrl = TempMainVideoUrl;
+        Videos[1].SmallImage = TempMainVideoImage;
+
+        FirstNewVideo.style.backgroundImage =  "url(" + Videos[1].SmallImage; + ")" ;
+    } else if (spot == "2"){
+        MainNewVideo.poster = Videos[2].MainImage;
+        MainNewVideo.src = Videos[2].VideoUrl;
+        MainNewVideo.play();
+
+        TempMainVideoUrl = Videos[0].VideoUrl;
+        TempMainVideoImage = Videos[0].SmallImage;
+
+        Videos[0].VideoUrl = Videos[2].VideoUrl;
+        Videos[0].SmallImage = Videos[2].SmallImage;
+
+        Videos[2].VideoUrl = TempMainVideoUrl;
+        Videos[2].SmallImage = TempMainVideoImage;
+
+        SecondNewVideo.style.backgroundImage =  "url(" + Videos[2].SmallImage; + ")" ;
+    } else if (spot == "3"){
+        MainNewVideo.poster = Videos[3].MainImage;
+        MainNewVideo.src = Videos[3].VideoUrl;
+        MainNewVideo.play();
+
+        TempMainVideoUrl = Videos[0].VideoUrl;
+        TempMainVideoImage = Videos[0].SmallImage;
+
+        Videos[0].VideoUrl = Videos[3].VideoUrl;
+        Videos[0].SmallImage = Videos[3].SmallImage;
+
+        Videos[3].VideoUrl = TempMainVideoUrl;
+        Videos[3].SmallImage = TempMainVideoImage;
+
+        ThirdNewVideo.style.backgroundImage =  "url(" + Videos[3].SmallImage; + ")" ;
+    }
+
+};
+
+
+
+
+
+var MainNewVideoMobile = document.getElementById("myVideoMobile");
+var FirstNewVideoMobile = document.getElementById("MainMobileBottomVideoImageDivOne");
+var SecondNewVideoMobile = document.getElementById("MainMobileBottomVideoImageDivTwo");
+var ThirdNewVideoMobile = document.getElementById("MainMobileBottomVideoImageDivThree");
+
+
+
+MainNewVideoMobile.src = Videos[0].VideoUrl;
+MainNewVideoMobile.poster = Videos[0].MainImage;
+
+FirstNewVideoMobile.style.backgroundImage =  "url(" + Videos[1].SmallImage; + ")" ;
+SecondNewVideoMobile.style.backgroundImage = "url(" + Videos[2].SmallImage; + ")" ;
+ThirdNewVideoMobile.style.backgroundImage = "url(" + Videos[3].SmallImage; + ")" ;
+
+
+
+
+function ChangeAndPlayMobileVideo(spot){
+
+    var TempMainVideoUrl;
+    var TempMainVideoImage;
+
+    if (spot == "1"){
+        MainNewVideoMobile.poster = Videos[1].MainImage;
+        MainNewVideoMobile.src = Videos[1].VideoUrl;
+        MainNewVideoMobile.play();
+
+        TempMainVideoUrl = Videos[0].VideoUrl;
+        TempMainVideoImage = Videos[0].SmallImage;
+
+        Videos[0].VideoUrl = Videos[1].VideoUrl;
+        Videos[0].SmallImage = Videos[1].SmallImage;
+
+        Videos[1].VideoUrl = TempMainVideoUrl;
+        Videos[1].SmallImage = TempMainVideoImage;
+
+        FirstNewVideoMobile.style.backgroundImage =  "url(" + Videos[1].SmallImage; + ")" ;
+    } else if (spot == "2"){
+        MainNewVideoMobile.poster = Videos[2].MainImage;
+        MainNewVideoMobile.src = Videos[2].VideoUrl;
+        MainNewVideoMobile.play();
+
+        TempMainVideoUrl = Videos[0].VideoUrl;
+        TempMainVideoImage = Videos[0].SmallImage;
+
+        Videos[0].VideoUrl = Videos[2].VideoUrl;
+        Videos[0].SmallImage = Videos[2].SmallImage;
+
+        Videos[2].VideoUrl = TempMainVideoUrl;
+        Videos[2].SmallImage = TempMainVideoImage;
+
+        SecondNewVideoMobile.style.backgroundImage =  "url(" + Videos[2].SmallImage; + ")" ;
+    } else if (spot == "3"){
+        MainNewVideoMobile.poster = Videos[3].MainImage;
+        MainNewVideoMobile.src = Videos[3].VideoUrl;
+        MainNewVideoMobile.play();
+
+        TempMainVideoUrl = Videos[0].VideoUrl;
+        TempMainVideoImage = Videos[0].SmallImage;
+
+        Videos[0].VideoUrl = Videos[3].VideoUrl;
+        Videos[0].SmallImage = Videos[3].SmallImage;
+
+        Videos[3].VideoUrl = TempMainVideoUrl;
+        Videos[3].SmallImage = TempMainVideoImage;
+
+        ThirdNewVideoMobile.style.backgroundImage =  "url(" + Videos[3].SmallImage; + ")" ;
+    }
+};

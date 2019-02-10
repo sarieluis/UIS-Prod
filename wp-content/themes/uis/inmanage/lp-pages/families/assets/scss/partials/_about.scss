@@ -1,0 +1,83 @@
+.about {
+  position: relative;
+  padding: 2.5rem 0 0;
+  background: #f3f5f7;
+  text-align: center;
+  overflow: hidden;
+
+  @include screen-sm {
+    padding-top: 3.5rem;
+    text-align: left;
+  }
+  @include screen-md {
+    padding-bottom: 3.5rem;
+  }
+  @include screen-lg {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .section-title {
+    margin-bottom: 2rem;
+
+    @include screen-lg {
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  &-text {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 2.5rem;
+
+    @include screen-md {
+      width: 60%;
+    }
+
+    @include screen-lg {
+      margin-bottom: 4rem;
+    }
+  }
+
+  &-img {
+    position: relative;
+    margin-top: 2rem;
+
+    @include screen-md {
+      position: absolute;
+      top: 0;
+      right: -15%;
+      bottom: 0;
+      height: 100%;
+      margin-top: 0;
+    }
+
+    @include screen-xl {
+      right: 0;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 30%;
+      background: linear-gradient(to bottom, rgba(243,245,247,1) 0%, rgba(243,245,247,0) 100%);
+
+      @include screen-md {
+        width: 25%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(243,245,247,1) 0%, rgba(243,245,247,0) 100%);
+      }
+    }
+
+    img {
+      display: block;
+
+      @include screen-md {
+        height: 100%;
+      }
+    }
+  }
+}

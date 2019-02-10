@@ -1,0 +1,10 @@
+[20-Jul-2018 03:57:18 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'creating archive "/home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/paragonie/random_compat/dist/random_compat.phar" disabled by the php.ini setting phar.readonly' in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/paragonie/random_compat/other/build_phar.php:13
+Stack trace:
+#0 /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/paragonie/random_compat/other/build_phar.php(13): Phar->__construct('/home/uiscanada...', 256, 'random_compat.p...')
+#1 {main}
+  thrown in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/paragonie/random_compat/other/build_phar.php on line 13
+[20-Jul-2018 06:51:50 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'creating archive "/home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/paragonie/random_compat/dist/random_compat.phar" disabled by the php.ini setting phar.readonly' in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/paragonie/random_compat/other/build_phar.php:13
+Stack trace:
+#0 /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/paragonie/random_compat/other/build_phar.php(13): Phar->__construct('/home/uiscanada...', 256, 'random_compat.p...')
+#1 {main}
+  thrown in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/paragonie/random_compat/other/build_phar.php on line 13

@@ -1,0 +1,2 @@
+[20-Jul-2018 03:57:17 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/symfony/options-resolver/Tests/OptionsResolverTest.php on line 21
+[20-Jul-2018 06:51:40 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/symfony/options-resolver/Tests/OptionsResolverTest.php on line 21

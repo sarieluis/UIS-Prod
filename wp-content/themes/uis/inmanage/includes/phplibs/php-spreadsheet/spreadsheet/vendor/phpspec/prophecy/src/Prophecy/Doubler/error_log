@@ -1,0 +1,2 @@
+[20-Jul-2018 04:08:38 UTC] PHP Fatal error:  Class 'Prophecy\Doubler\Doubler' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpspec/prophecy/src/Prophecy/Doubler/CachedDoubler.php on line 23
+[20-Jul-2018 06:51:26 UTC] PHP Fatal error:  Class 'Prophecy\Doubler\Doubler' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpspec/prophecy/src/Prophecy/Doubler/CachedDoubler.php on line 23

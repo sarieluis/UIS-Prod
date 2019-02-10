@@ -1,0 +1,4 @@
+[20-Jul-2018 03:26:28 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/enqueue.php on line 2
+[20-Jul-2018 03:26:28 UTC] PHP Fatal error:  Call to undefined function wp_next_scheduled() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/cron.php on line 4
+[20-Jul-2018 06:52:18 UTC] PHP Fatal error:  Call to undefined function wp_next_scheduled() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/cron.php on line 4
+[20-Jul-2018 06:52:18 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/enqueue.php on line 2

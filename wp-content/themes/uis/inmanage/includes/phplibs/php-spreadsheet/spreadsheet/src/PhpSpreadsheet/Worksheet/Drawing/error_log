@@ -1,0 +1,2 @@
+[20-Jul-2018 03:57:04 UTC] PHP Fatal error:  Interface 'PhpOffice\PhpSpreadsheet\IComparable' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/src/PhpSpreadsheet/Worksheet/Drawing/Shadow.php on line 28
+[20-Jul-2018 06:51:08 UTC] PHP Fatal error:  Interface 'PhpOffice\PhpSpreadsheet\IComparable' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/src/PhpSpreadsheet/Worksheet/Drawing/Shadow.php on line 28

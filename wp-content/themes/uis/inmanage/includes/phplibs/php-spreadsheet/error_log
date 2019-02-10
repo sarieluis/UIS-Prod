@@ -1,0 +1,2 @@
+[20-Jul-2018 03:32:33 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php on line 86
+[20-Jul-2018 06:52:18 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php on line 86

@@ -1,0 +1,1 @@
+[07-Jun-2018 04:35:56 UTC] PHP Fatal error:  Call to undefined function post_class() in /home/uiscanada/public_html/wp-includes/theme-compat/embed-content.php on line 13

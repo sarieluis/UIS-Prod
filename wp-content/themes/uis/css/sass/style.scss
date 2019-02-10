@@ -1,0 +1,46 @@
+a.personal-application-header-link {
+  display: inline-block;
+  padding: 11px 11px;
+  background: #FF0000;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+
+.btn-loader {
+
+  position: relative;
+
+  &:after {
+
+    content: "";
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 5px;
+    top: 50%;
+    transform: translateY( -50% );
+  }
+
+  &.red {
+
+    &:after {
+
+      background-image: url('/wp-content/themes/uis/img/assets/svg/loader.disk.red.svg');
+    }
+  }
+
+  &.green {
+
+    &:after {
+
+      background-image: url('/wp-content/themes/uis/img/assets/svg/loader.disk.green.svg');
+    }
+  }
+}
+

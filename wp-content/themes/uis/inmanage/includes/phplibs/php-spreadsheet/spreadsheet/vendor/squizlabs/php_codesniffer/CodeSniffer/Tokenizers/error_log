@@ -1,0 +1,8 @@
+[20-Jul-2018 04:03:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Class PHP_CodeSniffer_Tokenizers_PHP not found' in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/squizlabs/php_codesniffer/CodeSniffer/Tokenizers/CSS.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/squizlabs/php_codesniffer/CodeSniffer/Tokenizers/CSS.php on line 16
+[20-Jul-2018 06:51:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Class PHP_CodeSniffer_Tokenizers_PHP not found' in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/squizlabs/php_codesniffer/CodeSniffer/Tokenizers/CSS.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/squizlabs/php_codesniffer/CodeSniffer/Tokenizers/CSS.php on line 16

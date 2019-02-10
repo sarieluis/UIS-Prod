@@ -1,0 +1,2 @@
+[20-Jul-2018 04:02:55 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phenx/php-svg-lib/tests/Svg/StyleTest.php on line 15
+[20-Jul-2018 06:51:26 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phenx/php-svg-lib/tests/Svg/StyleTest.php on line 15

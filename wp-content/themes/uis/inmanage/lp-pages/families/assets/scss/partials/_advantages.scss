@@ -1,0 +1,67 @@
+.advantages {
+  padding: 3.5rem 0;
+  background: #212d4a;
+  color: #fff;
+  text-align: center;
+
+  @include screen-sm {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: left;
+  }
+
+  @include screen-lg {
+    padding-top: 6.5rem;
+    padding-bottom: 5.5rem;
+    font-size: 3rem;
+  }
+
+  .container {
+    @include screen-sm {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+  }
+
+  &-item {
+
+    &:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+
+    &:nth-child(1) {
+      @include screen-sm {
+        width: 35%;
+      }
+    }
+    &:nth-child(2) {
+      @include screen-sm {
+        width: 30%;
+      }
+    }
+    &:nth-child(3) {
+      @include screen-sm {
+        width: 30%;
+      }
+    }
+  }
+
+  &-img {
+    margin-bottom: 2rem;
+
+    @include screen-lg {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &-title {
+    margin-bottom: 1.5rem;
+    font-size: 2.4rem;
+
+    @include screen-lg {
+      margin-bottom: 2rem;
+      font-size: 4rem;
+    }
+  }
+}

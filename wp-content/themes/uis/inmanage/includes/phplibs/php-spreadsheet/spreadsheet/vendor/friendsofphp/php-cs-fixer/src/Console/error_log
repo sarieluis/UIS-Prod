@@ -1,0 +1,2 @@
+[20-Jul-2018 04:03:08 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Application' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Console/Application.php on line 28
+[20-Jul-2018 06:52:08 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Application' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/friendsofphp/php-cs-fixer/src/Console/Application.php on line 28

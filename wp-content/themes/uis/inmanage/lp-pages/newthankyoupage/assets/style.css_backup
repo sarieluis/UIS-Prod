@@ -1,0 +1,394 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local("Montserrat"), local(Montserrat), url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+#Main {
+    width: 100%;
+    background-color: #6a6b6d;
+}
+
+#MainDiv {
+    background: url('../Images/YP_Image.jpg') no-repeat center center;
+    width: 1200px;
+    height: 837px;
+    margin:auto;
+    overflow:hidden;
+}
+
+#MainDivText {
+    float: right;
+    padding-left:40px;
+}
+
+#MainDivTopText {
+    background: url('../Images/Logo_Final_YellowAndRed.png') no-repeat center center;
+    /*background-size: 505px 217px;*/
+    width: 407px;
+    height: 207px;
+    margin-top: 100px;
+    padding-right: 179px;
+
+}
+
+#MainDivBottomText {
+    /*padding-left:200px;*/
+    text-align: center;
+    /*font-family: 'Montserrat';*/
+    font-family:'Montserrat';
+}
+
+#MainDivBottomTopText {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Montserrat'
+}
+
+#MainDivBottomBottomText {
+    font-size: 24px;
+    color: #ffffff;
+    padding-top:30px;
+    font-family:'Montserrat';
+	padding-right:65px;
+}
+
+#backButton {
+    float: left;
+    padding-left: 50px;
+    padding-top: 90px;
+}
+
+ #backButton a {
+        font-family: Arial;
+        font-size: 25px;
+        color: #ffffff;
+        text-decoration:none;      
+    }
+
+#MainDivBottomTopText {
+    margin-top: 60px;
+    padding-right: 65px;
+}
+
+#brText2{
+    display:none;
+}
+
+#headerMobile{
+    display:none;
+}
+
+#txtMobile{display:none;}
+
+#Footer {
+    width: 100%;
+    background-color: #232323;
+}
+
+#FooterDiv {
+    width: 1240px;
+    margin: auto;
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
+#topFooterDiv{
+    overflow:hidden;
+}
+
+#LefttopFooterDiv{
+    float:left;
+    background:url('../Images/logo-footer.png');
+    width:167px;
+    height:66px;
+}
+
+#MiddletopFooterDiv {
+    float: left;
+    margin-left: 5%;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size:22px;
+    line-height:24px;
+    color:#fff;
+}
+
+#RighttopFooterDiv {
+    float: left;
+    margin-left: 5%;
+    font-size: 22px;
+    line-height: 24px;
+    color: #fff;
+    padding-bottom:40px;
+}
+
+    #RighttopFooterDiv a {
+        text-decoration: none;
+        color: inherit;
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    }
+
+    #RighttopFooterDiv a:hover {
+        text-decoration: none;
+        color: #5a5959;   
+    }
+
+#BottomFooterDiv {
+    width:80%;
+    padding-top: 20px;
+    border-top: 1px solid #5a5959;
+    color: #5a5959;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    line-height:25px;
+    font-size:14px;
+}
+
+@media only screen and (max-width: 1240px) {
+
+    #MainDiv {
+        width:100%;
+    }
+    #FooterDiv{
+        width:768px;
+        padding-left:0;
+        padding-right:0;
+    }
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+
+    #backButton{
+        display:none;
+    }
+    /*#MainDiv {
+        width: 100%;
+        background-position: -70px top;
+        background-size: 835px 569px;
+        height:569px;
+    }*/
+    #MainDiv {
+        background: url('../Images/YP_Image_768_new.jpg') no-repeat center center;
+        width: 100%;
+        height: 513px;
+    }
+
+    #Footer{
+        width:100%;
+    }
+
+    #MainDivText {
+        padding-right: 30px;
+    }
+
+    #MainDivTopText {
+        padding-right: 0;
+        margin-top: 8px;
+        background-size: 350px auto;
+        width: 350px;
+        height: 200px;
+        float: right;
+        margin-bottom: 66px;
+    }
+
+    #MainDivBottomTopText {
+        padding-top: 0;
+        font-size: 18px;
+        clear: both;
+        padding-right:20px;
+    }
+
+    #MainDivBottomBottomText {
+        font-size: 18px;
+        font-weight: normal;
+        clear: both;
+		padding-right:0;
+    }
+
+    #brText2 {
+        display: block;
+    }
+
+    #brText2 {
+        display: none;
+    }
+
+    #backButton a {
+        font-size: 18px;
+    }
+
+    #FooterDiv {
+        width: 100%;
+    }
+
+    #MiddletopFooterDiv, #RighttopFooterDiv a{
+        font-size:14px;
+    }
+
+    #LefttopFooterDiv{
+        float:none;
+    }
+
+    #MiddletopFooterDiv{
+        float:none;
+        margin-top:15px;
+    }
+
+    #RighttopFooterDiv {
+        float: none;
+        margin-top: 15px;
+        margin-top: 0;
+    }
+
+    #RighttopFooterDiv br{
+        display:none;
+    }
+
+    #topFooterDiv{
+        overflow:visible;
+        margin:auto;
+        width:300px;
+    }
+
+    #BottomFooterDiv{
+        padding-left:20px;
+        margin:auto;
+    }
+}
+
+
+
+        @media only screen and (max-width: 528px) {
+
+
+            #MainDivText {
+                padding-right: 20px;
+                padding-left: 20px;
+                float: none;
+            }
+
+            #MainDivTopText {
+                padding-bottom: 0;
+            }
+
+            #MainDiv {
+                overflow: visible;
+                background: url('../Images/VP_Image_Mobile2.png') no-repeat center top;
+                width: 100%;
+                height: 465px;
+            }
+
+            #backButton {
+                float: none;
+                padding-top: 20px;
+                padding-left: 20px;
+                display: none;
+            }
+
+            #MainDivTopText {
+                float: left;
+                background: url('../Images/logo_mobile.png') no-repeat;
+                width: 220px;
+                height: 88px;
+                background-size: 45%;
+                margin-top: 15px;
+            }
+
+            #MainDivBottomTopText {
+                margin-top: 168px;
+            }
+
+            #brText1 {
+                display: none;
+            }
+
+            #MainDivBottomText {
+                display: none;
+            }
+
+            #MainDivBottomTopText, #MainDivBottomBottomText {
+                text-shadow: 1px 1px #614949;
+                color: #d09e9e;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            #headerMobile {
+                /*display: block;*/
+                width: 100%;
+                height: 70px;
+                background: url('../Images/logo.png') no-repeat center center;
+                background-size: 150px auto;
+                background-color: #f3f3f3;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            #txtMobile {
+                display: block;
+                background-color: #666668;
+                padding: 15px;
+            }
+
+
+            #MainDivBottomTopTextMobile, #MainDivBottomBottomTextMobile {
+                text-align: center;
+                font-size: 22px;
+                color: #fff;
+                font-family: Arial;
+                line-height: 27px;
+                font-weight: bold;
+            }
+        }

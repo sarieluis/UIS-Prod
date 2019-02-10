@@ -1,0 +1,53 @@
+.place {
+  padding: 3.5rem 0;
+
+  @include screen-sm {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+
+  @include screen-lg {
+    padding-top: 5rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .section-title {
+    margin-bottom: 2rem;
+
+    @include screen-lg {
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  &-text {
+    max-width: 1100px;
+    text-align: center;
+
+    @include screen-sm {
+      margin-bottom: 2.5rem;
+      font-weight: 300;
+      text-align: left;
+    }
+    @include screen-lg {
+      margin-bottom: 4rem;
+    }
+
+    &-slogan {
+      display: inline-block;
+      margin-top: 2rem;
+
+      @include screen-sm {
+        margin-top: 0;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .btn {
+    display: none;
+
+    @include screen-sm {
+      display: block;
+    }
+  }
+}

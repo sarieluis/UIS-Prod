@@ -1,0 +1,52 @@
+/*
+Theme Name: UIS
+*/
+
+.quickfact-col:nth-child(1) .quickfact-item,
+.quickfact-col:nth-child(3) .quickfact-item,
+.quickfact-col:nth-child(6) .quickfact-item,
+.quickfact-col:nth-child(8) .quickfact-item
+{
+    background: #ff0000;
+    color: #fff;
+}
+.quickfact-col:nth-child(2) .quickfact-item,
+.quickfact-col:nth-child(4) .quickfact-item,
+.quickfact-col:nth-child(5) .quickfact-item,
+.quickfact-col:nth-child(7) .quickfact-item
+{
+    background: #fff;
+    color: #ff0000;
+}
+
+.easy-autocomplete-container ul li, .easy-autocomplete-container ul .eac-category {
+    text-align: left !important;
+}
+
+.register_form p.error-message, .login_form p.error-message, .application .app-body p.error-message {
+    display: none;
+    float: left;
+    min-width: 100%;
+    margin: 5px 0 10px 0;
+    font-size: 12px;
+    color: #e82c00;
+}
+
+.register_form .form-group.has-error p.error-message,
+.login_form .form-group.has-error p.error-message,
+.application .app-body .app-col.has-error p.error-message  {
+    display: block;
+}
+
+#wpgmza_map {
+    float: none !important;
+}
+
+.easy-autocomplete {
+    width: 100% !important;
+}
+
+.application .popup {
+    min-width: 300px;
+    padding: 15px 10px;
+}

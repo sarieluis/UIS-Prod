@@ -1,0 +1,185 @@
+.form-wrap {
+    position: absolute;
+    top: 1397px;
+	background: rgba(128, 124, 124, 0.22);
+}
+
+.bunner-img{
+	display:none;
+}
+
+.static-block{
+	position:static;
+}
+
+.static-block.static-block_sm {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#myMobileVideo{
+	width:100%;
+	height:auto;
+}
+
+#videoMobileDiv{
+	display:none;
+}
+
+#videoDiv {
+    margin-top: -11px;
+}
+
+#myVideo{
+	min-width:100%;
+	min-height:100%;
+}
+
+#playBtn {
+    animation-name: fadeIn;
+    opacity: 1;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    visibility: visible cursor: pointer;
+    width: 109px;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-radius: 109px;
+    -webkit-border-radius: 109px;
+    height: 109px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition-duration: 1s;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position:absolute;
+    top:546px;
+    left:45%;
+    cursor:pointer;
+}
+
+#playBtn:hover {
+     background-color: rgba(255, 255, 255, 0.5);
+    }
+
+#playBtnDesktop {
+    padding-left: 8px;
+    max-width: initial !important;
+}
+
+
+
+.bunner-wrap, .wrapper{
+	position:unset;
+}
+
+#bunner-wrap_Mobile{display:none;}
+
+#static-block-mobile{display:none;}
+
+@media screen and (max-width: 1680px) {
+	.bunner-wrap, .wrapper{
+	position:relative;
+}
+
+.form-wrap {
+    position: relative;
+	background: rgba(0,0,0,.8);
+	top:0;
+    
+}
+
+#myVideo{
+	display:none;
+}
+
+#playBtn {
+	display:none;
+}
+.bunner-img{
+	display:block;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+	#videoMobileDiv{
+	display:block;
+}
+#muteBtn{
+    background:url("images/umuted.png") no-repeat center center;
+    width:60px;
+    height:70px;
+	background-size:20px 20px;
+	position: absolute;
+    top: 48px;
+    right: 0;
+}
+
+#signUpBtn{
+	background:url("images/Sign-Up-Now-Icon.png") no-repeat center center;
+    width:60px;
+    height:70px;
+	background-size:20px 20px;
+	position: absolute;
+    top: 48px;
+    left: 0;
+}
+
+#static-block-mobileDown, #bunner-img full-img-mobile{display:block;} 
+
+#static_desktop, #bunner_img_desktop{display:none;}
+
+.easy-autocomplete.eac-square{width:100% !important;}
+
+.header-top{display:none;}
+
+#containerFormMobile{background:#3c3c3c;}
+
+#xBtn{
+	background:url("images/xButton.png") no-repeat center center;
+	width:60px;
+	height:60px;
+	background-size:60px 60px;
+	position:absolute;
+	top:10px;
+	right:20px;
+	
+}
+
+}
+
+#whoWeAre{margin-top:-21px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

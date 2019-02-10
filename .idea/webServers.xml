@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0e06ce60-6c16-498a-b560-7390443f3ce2" name="UIS Dev" url="http://uis.urbanet.co.il">
+        <fileTransfer host="uis.urbanet.co.il" port="22" rootFolder="/var/www/wordpress" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

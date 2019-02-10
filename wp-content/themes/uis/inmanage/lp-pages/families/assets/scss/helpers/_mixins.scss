@@ -1,0 +1,78 @@
+// Media queries
+@mixin screen-xs {
+	@media screen and (min-width: $xs-width) {
+		@content;
+	}
+}
+@mixin screen-sm {
+	@media screen and (min-width: $sm-width) {
+		@content;
+	}
+}
+@mixin screen-md {
+	@media screen and (min-width: $md-width) {
+		@content;
+	}
+}
+@mixin screen-lg {
+	@media screen and (min-width: $lg-width) {
+		@content;
+	}
+}
+@mixin screen-xl {
+	@media screen and (min-width: $xl-width) {
+		@content;
+	}
+}
+
+@mixin screen-xxl {
+	@media screen and (min-width: $xxl-width) {
+		@content;
+	}
+}
+
+
+// Clearfix
+@mixin clearfix {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+// Placeholder
+@mixin placeholder ($color, $opacity-end, $transition, $transition-function) {
+	&::-webkit-input-placeholder {
+		color: $color;
+		opacity: 1;
+		transition: opacity $transition $transition-function;
+	}
+	&::-moz-placeholder {
+		color: $color;
+		opacity: 1;
+		transition: opacity $transition $transition-function;
+	}
+	&:-moz-placeholder {
+		color: $color;
+		opacity: 1;
+		transition: opacity $transition $transition-function;
+	}
+	&:-ms-input-placeholder {
+		color: $color;
+		opacity: 1;
+		transition: opacity $transition $transition-function;
+	}
+	&:focus::-webkit-input-placeholder {
+		opacity: $opacity-end;
+	}
+	&:focus::-moz-placeholder {
+		opacity: $opacity-end;
+	}
+	&:focus:-moz-placeholder {
+		opacity: $opacity-end;
+	}
+	&:focus:-ms-input-placeholder {
+		opacity: $opacity-end;
+	}
+}

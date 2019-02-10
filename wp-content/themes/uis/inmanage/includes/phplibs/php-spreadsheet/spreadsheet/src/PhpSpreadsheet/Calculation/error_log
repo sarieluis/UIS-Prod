@@ -1,0 +1,2 @@
+[20-Jul-2018 03:50:30 UTC] PHP Fatal error:  Class 'PhpOffice\PhpSpreadsheet\Exception' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/src/PhpSpreadsheet/Calculation/Exception.php on line 28
+[20-Jul-2018 06:51:09 UTC] PHP Fatal error:  Class 'PhpOffice\PhpSpreadsheet\Exception' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/src/PhpSpreadsheet/Calculation/Exception.php on line 28

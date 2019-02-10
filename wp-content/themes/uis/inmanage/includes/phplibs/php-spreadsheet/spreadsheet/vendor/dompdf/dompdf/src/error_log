@@ -1,0 +1,2 @@
+[20-Jul-2018 03:57:19 UTC] PHP Fatal error:  Class 'Dompdf\Renderer\AbstractRenderer' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/dompdf/dompdf/src/Renderer.php on line 28
+[20-Jul-2018 06:51:19 UTC] PHP Fatal error:  Class 'Dompdf\Renderer\AbstractRenderer' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/dompdf/dompdf/src/Renderer.php on line 28

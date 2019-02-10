@@ -1,0 +1,139 @@
+/******************************************************/
+// MIXINS
+/******************************************************/
+@mixin box-sizing( $box-sizing ) {
+
+  box-sizing: $box-sizing;
+  -moz-box-sizing: $box-sizing;
+  -webkit-box-sizing: $box-sizing;
+}
+
+/******************************************************/
+// Variables
+/******************************************************/
+$red-uis: #ff0000;
+$grey-uis: #222;
+
+/******************************************************/
+// Rules
+/******************************************************/
+* {
+
+  @include box-sizing( border-box );
+}
+
+body {
+
+  background-color: #fff;
+}
+
+.thankyou-content {
+
+  background-color: #ffffff;
+  height: 100%;
+  padding: 0px 21%;
+  position: relative;
+
+  #floating-flag {
+
+    position: absolute;
+    height: 100px;
+    width: auto;
+    right: 11%;
+    left: auto;
+    top: 50px;
+  }
+
+  .container {
+
+    .content-inner {
+
+      margin: 0px;
+      max-width: none;
+
+      .payment-confirmation-message {
+
+        h1 {
+
+          text-transform: none;
+          color: $grey-uis;
+          font-size: 36px;
+
+          checkedbox {
+
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            background-image: url(../images/checkbox.png);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: 40px;
+          }
+        }
+
+        p {
+
+          text-align: center;
+          font-weight: bold;
+          font-size: 20px;
+        }
+      }
+
+      .red-message {
+
+        p {
+
+          color: $red-uis;
+          font-size: 24px;
+          text-align: center;
+          font-weight: bold;
+          margin: 50px 0;
+        }
+      }
+
+      .after-payment-steps {
+
+        ul {
+
+          list-style-image: url("../images/star.png");
+          list-style-position: outside;
+
+          li {
+
+            font-size: 18px;
+            font-weight: 500;
+            margin: 30px 0px;
+          }
+        }
+      }
+
+
+      .good-luck-message {
+
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        vertical-align: bottom;
+
+        p {
+
+          vertical-align: bottom;
+          display: inline-block;
+        }
+
+        p:after {
+
+          vertical-align: bottom;
+          content: '';
+          display: inline-block;
+          background-image: url("../images/goodluck.png");
+          height: 30px;
+          width: 30px;
+          margin-left: 5px;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}

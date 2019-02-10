@@ -1,0 +1,2 @@
+[20-Jul-2018 04:02:56 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_Exception' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpunit/phpunit/src/Framework/Error.php on line 15
+[20-Jul-2018 06:51:41 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_Exception' not found in /home/uiscanada/public_html/wp-content/themes/uis/inmanage/includes/phplibs/php-spreadsheet/spreadsheet/vendor/phpunit/phpunit/src/Framework/Error.php on line 15
